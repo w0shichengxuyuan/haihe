@@ -20,6 +20,12 @@
                 "${workspaceFolder}/source/required/standard/delay/**",
                 "${workspaceFolder}/source/required/standard/converter/**",
                 "${workspaceFolder}/source/required/standard/crypto/**",
+                "${workspaceFolder}/source/required/standard/crypto/aes/**",
+                "${workspaceFolder}/source/required/standard/crypto/checksum/**",
+                "${workspaceFolder}/source/required/standard/crypto/cmac/**",
+                "${workspaceFolder}/source/required/standard/crypto/crc/**",
+                "${workspaceFolder}/source/required/standard/crypto/hitag/**",
+                "${workspaceFolder}/source/required/standard/crypto/random/**",
                 "${workspaceFolder}/source/required/system/**",
 
                 "${workspaceFolder}/source/optional/**",
