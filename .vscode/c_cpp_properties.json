@@ -36,7 +36,8 @@
                 "__FACTORY__",
                 "__HARDWARE__",
                 "__RELEASE__",
-                "__TEST__"
+                "__TEST__",
+                "__STD_C99__"
             ]
         }
     ],
