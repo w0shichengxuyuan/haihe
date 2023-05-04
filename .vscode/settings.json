@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "std_public.h": "c",
+        "std_type_public.h": "c",
+        "sys_public.h": "c",
+        "sys_private.h": "c"
+    }
+}

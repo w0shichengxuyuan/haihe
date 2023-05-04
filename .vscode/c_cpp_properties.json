@@ -35,7 +35,7 @@
                 "${workspaceFolder}/source/optional/**",
                 "${workspaceFolder}/source/optional/bsp/**",
                 "${workspaceFolder}/source/optional/open/**",
-                "${workspaceFolder}/source/optional/os/**",
+                "${workspaceFolder}/source/optional/rtos/**",
                 "${workspaceFolder}/source/optional/sdk/**",
                 "${workspaceFolder}/source/optional/test/**"
             ],
