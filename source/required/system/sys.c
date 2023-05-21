@@ -14,5 +14,5 @@
  * @copyright copyright ©2023 by openc0de, all rights reserved.
  */
 
-#include "sys_private.h"
 #include "sys_public.h"
+#include "sys_private.h"
