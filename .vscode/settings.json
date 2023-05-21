@@ -3,6 +3,7 @@
         "std_public.h": "c",
         "std_type_public.h": "c",
         "sys_public.h": "c",
-        "sys_private.h": "c"
+        "sys_private.h": "c",
+        "std_private.h": "c"
     }
 }
