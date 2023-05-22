@@ -1,23 +1,21 @@
 /**
- * @file      \source\required\main.c
- * @brief     main file
- * @author    openc0de (openc0de@hotmail.com)
- * @date      Fri Apr 28 2023 19:43:17 +0800
+ * @file main.c
+ * @brief 主函数
+ * @author openc0de (openc0de@hotmail.com)
+ * @since Sun Apr 30 2023 20:16:20 +0800
  *
- * @name      openc0de (openc0de@hotmail.com)
- * @date      Thu May 4 2023 11:57:45 +0800
- * @version   0.00.003
- * @details   add a new main function api
- *
- * @link      https://github.com/openc0de/haihe
+ * @name openc0de (openc0de@hotmail.com)
+ * @date Tue May 23 2023 00:25:53 +0800
+ * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
+ *
  */
 
 #include "sys_public.h"
 
 /**
- * @brief main function
+ * @brief 主函数
  *
  * @return 0
  */
