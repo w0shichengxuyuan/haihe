@@ -1,17 +1,15 @@
 /**
- * @file      \source\required\system\sys_private.h
- * @brief     system private header file
- * @author    openc0de (openc0de@hotmail.com)
- * @since     Sat Apr 29 2023 22:32:01 +0800
+ * @file sys_private.h
+ * @brief 系统私有文件
+ * @author openc0de (openc0de@hotmail.com)
+ * @since Sat Apr 29 2023 22:32:01 +0800
  *
- * @name      openc0de (openc0de@hotmail.com)
- * @date      Sat Apr 29 2023 22:32:01 +0800
- * @version   0.00.001
- * @details   first edition
- *
- * @link      https://github.com/openc0de/haihe
+ * @name openc0de (openc0de@hotmail.com)
+ * @date Tue May 23 2023 00:43:49 +0800
+ * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
+ *
  */
 
 #ifndef __SYS_PRIVATE_H__
