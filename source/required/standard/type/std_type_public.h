@@ -1,17 +1,21 @@
 /**
- * @file      \source\required\standard\type\std_type_public.h
- * @brief     standardlized type definitions public header file
- * @author    openc0de (openc0de@hotmail.com)
- * @since     Sat Apr 29 2023 17:14:01 +0800
+ * @file std_type_public.h
+ * @brief 标准类型公有文件
+ * @author openc0de (openc0de@hotmail.com)
+ * @since Sat Apr 29 2023 17:14 +0800
  *
- * @name      openc0de (openc0de@hotmail.com)
- * @date      Sat Apr 29 2023 17:14:01 +0800
- * @version   0.00.001
- * @details   first edition
- *
- * @link      https://github.com/openc0de/haihe
+ * @name openc0de (openc0de@hotmail.com)
+ * @date Tue May 23 2023 20:58 +0800
+ * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
+ *
+ * @details
+ * -----------------------------------------------------------------------------
+ *    version   |             date            |       by       |    comments
+ * ------------ | --------------------------- | -------------- | ---------------
+ *   0.00.001   | Tue May 23 2023 20:58 +0800 |    openc0de    | 初版
+ * -----------------------------------------------------------------------------
  */
 
 #ifndef __STD_TYPE_PUBLIC_H__
