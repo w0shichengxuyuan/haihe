@@ -19,7 +19,7 @@
                                 "${workspaceFolder}/source/required/autosar/bsw/mcal/**",
                             "${workspaceFolder}/source/required/standard/**",
                                 "${workspaceFolder}/source/required/standard/type/**",
-                                "${workspaceFolder}/source/required/standard/status/**",
+                                "${workspaceFolder}/source/required/standard/state/**",
                                 "${workspaceFolder}/source/required/standard/library/**",
                                 "${workspaceFolder}/source/required/standard/delay/**",
                                 "${workspaceFolder}/source/required/standard/conversion/**",
