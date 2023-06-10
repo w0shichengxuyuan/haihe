@@ -9,6 +9,7 @@
         "std_crypto_private.h": "c",
         "std_delay_public.h": "c",
         "std_lib_public.h": "c",
-        "std_state_public.h": "c"
+        "std_state_public.h": "c",
+        "std_swap_public.h": "c"
     }
 }
