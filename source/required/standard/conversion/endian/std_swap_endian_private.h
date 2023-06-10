@@ -1,11 +1,11 @@
 /**
- * @file std_cnv_endian_public.h
- * @brief 标准字节序转换公有文件
+ * @file std_swap_endian_private.h
+ * @brief 标准字节序转换私有文件
  * @author openc0de (openc0de@hotmail.com)
  * @since Sat Jun 10 2023 12:29 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 10 2023 12:32 +0800
+ * @date Sat Jun 10 2023 13:55 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -18,8 +18,8 @@
  * -----------------------------------------------------------------------------
  */
 
-#ifndef __STD_CNV_ENDIAN_PUBLIC_H__
-#define __STD_CNV_ENDIAN_PUBLIC_H__
+#ifndef __STD_SWAP_ENDIAN_PRIVATE_H__
+#define __STD_SWAP_ENDIAN_PRIVATE_H__
 
 /*header files******************************************************************/
 
@@ -123,8 +123,12 @@
 
 /*declarations******************************************************************/
 
+    /*variable******************************************************************/
+
+
+
     /*function******************************************************************/
 
 
 
-#endif /* __STD_CNV_ENDIAN_PUBLIC_H__ */
+#endif /* __STD_SWAP_ENDIAN_PRIVATE_H__ */
