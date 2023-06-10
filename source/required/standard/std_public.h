@@ -5,7 +5,7 @@
  * @since Sat Apr 29 2023 17:25 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 10 2023 12:38 +0800
+ * @date Sat Jun 10 2023 12:46 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -48,6 +48,7 @@
         #include "std_type_public.h"
         #include "std_state_public.h"
         #include "std_cnv_public.h"
+        #include "std_crypto_public.h"
 
         /*system****************************************************************/
 
