@@ -22,7 +22,7 @@
                                 "${workspaceFolder}/source/required/standard/state/**",
                                 "${workspaceFolder}/source/required/standard/library/**",
                                 "${workspaceFolder}/source/required/standard/delay/**",
-                                "${workspaceFolder}/source/required/standard/conversion/**",
+                                "${workspaceFolder}/source/required/standard/swap/**",
                                 "${workspaceFolder}/source/required/standard/crypto/**",
                                     "${workspaceFolder}/source/required/standard/crypto/aes/**",
                                     "${workspaceFolder}/source/required/standard/crypto/checksum/**",
