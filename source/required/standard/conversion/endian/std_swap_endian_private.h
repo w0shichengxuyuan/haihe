@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 12:29 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 10 2023 13:55 +0800
+ * @date Sat Jun 10 2023 15:45 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -45,7 +45,9 @@
 
         /*standard**************************************************************/
 
-
+        #include "std_type_public.h"
+        #include "std_state_public.h"
+        #include "std_lib_public.h"
 
         /*system****************************************************************/
 
@@ -79,7 +81,7 @@
 
     /*boolean*******************************************************************/
 
-
+    typedef bool endian_b;
 
     /*char**********************************************************************/
 
@@ -103,7 +105,8 @@
 
     /*macro*********************************************************************/
 
-
+    #define M_LIEELE_ENDIAN    (FALSE)
+    #define M_BIG_ENDIAN       (TRUE)
 
     /*structure*****************************************************************/
 
@@ -115,7 +118,46 @@
 
     /*union*********************************************************************/
 
+    typedef union data16_u
+    {
+        u16 u16_data;
 
+        struct s_byte
+        {
+            u8 u8_byte0;
+            u8 u8_byte1;
+        } s_byte;
+    } data16_u;
+
+    typedef union data32_u
+    {
+        u32 u32_data;
+
+        struct s_byte
+        {
+            u8 u8_byte0;
+            u8 u8_byte1;
+            u8 u8_byte2;
+            u8 u8_byte3;
+        } s_byte;
+    } data32_u;
+
+    typedef union data64_u
+    {
+        u64 u64_data;
+
+        struct s_byte
+        {
+            u8 u8_byte0;
+            u8 u8_byte1;
+            u8 u8_byte2;
+            u8 u8_byte3;
+            u8 u8_byte4;
+            u8 u8_byte5;
+            u8 u8_byte6;
+            u8 u8_byte7;
+        } s_byte;
+    } data64_u;
 
     /*function******************************************************************/
 
@@ -129,6 +171,6 @@
 
     /*function******************************************************************/
 
-
+    static endian_b b_get_endian(void);
 
 #endif /* __STD_SWAP_ENDIAN_PRIVATE_H__ */
