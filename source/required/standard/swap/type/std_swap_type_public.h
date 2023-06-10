@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 22:22 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 10 2023 23:40 +0800
+ * @date Sat Jun 10 2023 23:43 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -188,7 +188,7 @@
      *         FAILURE
      */
     state_e e_std_swap_type_u16_to_u32(const u16 *u16_p_in,  u8  u8_in_len,
-                                            u32 *u32_p_out, u8 *u8_p_out_len);
+                                             u32 *u32_p_out, u8 *u8_p_out_len);
 
     /**
      * @brief u16数组转u64数组
@@ -201,7 +201,7 @@
      *         FAILURE
      */
     state_e e_std_swap_type_u16_to_u64(const u16 *u16_p_in,  u8  u8_in_len,
-                                            u64 *u64_p_out, u8 *u8_p_out_len);
+                                             u64 *u64_p_out, u8 *u8_p_out_len);
 
     /**
      * @brief u32数组转u8数组
@@ -227,7 +227,7 @@
      *         FAILURE
      */
     state_e e_std_swap_type_u32_to_u16(const u32 *u32_p_in,  u8  u8_in_len,
-                                            u16 *u16_p_out, u8 *u8_p_out_len);
+                                             u16 *u16_p_out, u8 *u8_p_out_len);
 
     /**
      * @brief u32数组转u64数组
@@ -240,7 +240,7 @@
      *         FAILURE
      */
     state_e e_std_swap_type_u32_to_u64(const u32 *u32_p_in,  u8  u8_in_len,
-                                            u64 *u64_p_out, u8 *u8_p_out_len);
+                                             u64 *u64_p_out, u8 *u8_p_out_len);
 
     /**
      * @brief u64数组转u8数组
@@ -266,7 +266,7 @@
      *         FAILURE
      */
     state_e e_std_swap_type_u64_to_u16(const u64 *u64_p_in,  u8  u8_in_len,
-                                            u16 *u16_p_out, u8 *u8_p_out_len);
+                                             u16 *u16_p_out, u8 *u8_p_out_len);
 
     /**
      * @brief u64数组转u32数组
@@ -279,6 +279,6 @@
      *         FAILURE
      */
     state_e e_std_swap_type_u64_to_u32(const u64 *u64_p_in,  u8  u8_in_len,
-                                            u32 *u32_p_out, u8 *u8_p_out_len);
+                                             u32 *u32_p_out, u8 *u8_p_out_len);
 
 #endif /* __STD_SWAP_TYPE_PUBLIC_H__ */
