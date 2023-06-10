@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 00:09 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 10 2023 13:03 +0800
+ * @date Sat Jun 10 2023 13:05 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -111,11 +111,11 @@
 
     /*enumeration***************************************************************/
 
-    typedef enum std_state_e
+    typedef enum state_e
     {
-        E_SUCCESS = 0, /* success */
-        E_FAILURE = 1, /* failure */
-    } std_state_e;
+        SUCCESS = 0, /* success */
+        FAILURE = 1, /* failure */
+    } state_e;
 
     /*union*********************************************************************/
 
