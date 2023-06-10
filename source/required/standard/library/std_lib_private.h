@@ -1,11 +1,11 @@
 /**
- * @file std_public.h
- * @brief 标准公有文件
+ * @file std_lib_private.h
+ * @brief 标准库私有文件
  * @author openc0de (openc0de@hotmail.com)
- * @since Sat Apr 29 2023 17:25 +0800
+ * @since Sat Jun 10 2023 12:54 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 10 2023 12:57 +0800
+ * @date Sat Jun 10 2023 12:56 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -14,12 +14,12 @@
  * -----------------------------------------------------------------------------
  *    version   |             date            |       by       |    comments
  * ------------ | --------------------------- | -------------- | ---------------
- *   0.00.001   | Sat Apr 29 2023 17:25 +0800 |    openc0de    | 初版
+ *   0.00.001   | Sat Jun 10 2023 12:54 +0800 |    openc0de    | 初版
  * -----------------------------------------------------------------------------
  */
 
-#ifndef __STD_PUBLIC_H__
-#define __STD_PUBLIC_H__
+#ifndef __STD_LIB_PRIVATE_H__
+#define __STD_LIB_PRIVATE_H__
 
 /*header files******************************************************************/
 
@@ -45,11 +45,7 @@
 
         /*standard**************************************************************/
 
-        #include "std_type_public.h"
-        #include "std_state_public.h"
-        #include "std_cnv_public.h"
-        #include "std_crypto_public.h"
-        #include "std_lib_public.h"
+
 
         /*system****************************************************************/
 
@@ -127,8 +123,12 @@
 
 /*declarations******************************************************************/
 
+    /*variable******************************************************************/
+
+
+
     /*function******************************************************************/
 
 
 
-#endif /* __STD_PUBLIC_H__ */
+#endif /* __STD_LIB_PRIVATE_H__ */
