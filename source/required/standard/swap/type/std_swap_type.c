@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 22:22 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sun Jun 11 2023 22:12 +0800
+ * @date Sun Jun 11 2023 22:15 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -573,5 +573,34 @@ state_e e_std_swap_type_u64_to_u16(const u64 *u64_p_in,  u8  u8_in_len,
 state_e e_std_swap_type_u64_to_u32(const u64 *u64_p_in,  u8  u8_in_len,
                                          u32 *u32_p_out, u8 *u8_p_out_len)
 {
+    if (NULL == u64_p_in)
+        return (FAILURE);
+
+    if (0 == u8_in_len)
+        return (FAILURE);
+
+    if (255 < (u8_in_len << 1))
+        return (FAILURE);
+
+    if (NULL == u32_p_out)
+        return (FAILURE);
+
+    if (NULL == u8_p_out_len)
+        return (FAILURE);
+
+    u8   u8_number    = 0;
+    u32 *u32_p_buffer = NULL;
+    u64 *u64_p_buffer = NULL;
+
+    u32_p_buffer = u32_p_out;
+    u64_p_buffer = u64_p_in;
+    u8_number    = u8_in_len << 1;
+
+    for (u8 i = 0; u8_number > i; ++i)
+    {
+        *u32_p_buffer++ = *u64_p_buffer >> 32;
+        *u32_p_buffer++ = *u64_p_buffer++;
+    }
+
     return (SUCCESS);
 } /* e_std_swap_type_u64_to_u32 */
