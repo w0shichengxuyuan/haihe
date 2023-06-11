@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 22:22 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sun Jun 11 2023 22:04 +0800
+ * @date Sun Jun 11 2023 22:05 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -340,21 +340,23 @@ state_e e_std_swap_type_u16_to_u64(const u16 *u16_p_in,  u8  u8_in_len,
     u8   u8_quotient  = 0,
          u8_remainder = 0;
     u16 *u16_p_buffer = NULL;
+    u64 *u64_p_buffer = NULL;
 
     u16_p_buffer = u16_p_in;
+    u64_p_buffer = u64_p_out;
     u8_quotient  = u8_in_len >> 2;
     u8_remainder = u8_in_len  & 3;
 
     for (u8 i = 0; u8_quotient > i; ++i)
     {
-        *u64_p_out  = 0;
+        *u64_p_buffer  = 0;
 
-        *u64_p_out  = *u16_p_buffer++ << 48;
-        *u64_p_out |= *u16_p_buffer++ << 32;
-        *u64_p_out |= *u16_p_buffer++ << 16;
-        *u64_p_out |= *u16_p_buffer++      ;
+        *u64_p_buffer  = *u16_p_buffer++ << 48;
+        *u64_p_buffer |= *u16_p_buffer++ << 32;
+        *u64_p_buffer |= *u16_p_buffer++ << 16;
+        *u64_p_buffer |= *u16_p_buffer++      ;
 
-        ++u64_p_out;
+        ++u64_p_buffer;
     }
 
     *u8_p_out_len = u8_quotient;
@@ -364,9 +366,9 @@ state_e e_std_swap_type_u16_to_u64(const u16 *u16_p_in,  u8  u8_in_len,
     *u8_p_out_len += 1;
     for (u8 i = 0; u8_remainder > i; ++i)
     {
-        *u64_p_out = 0;
+        *u64_p_buffer = 0;
 
-        *u64_p_out = *u16_p_buffer++ << ((3 - i) << 4);
+        *u64_p_buffer = *u16_p_buffer++ << ((3 - i) << 4);
     }
 
     return (SUCCESS);
