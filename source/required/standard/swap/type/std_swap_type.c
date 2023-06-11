@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 22:22 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sun Jun 11 2023 21:14 +0800
+ * @date Sun Jun 11 2023 21:26 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -232,6 +232,48 @@ state_e e_std_swap_type_u16_to_u8(const u16 *u16_p_in, u8  u8_in_len,
 state_e e_std_swap_type_u16_to_u32(const u16 *u16_p_in,  u8  u8_in_len,
                                          u32 *u32_p_out, u8 *u8_p_out_len)
 {
+    if (NULL == u16_p_in)
+        return (FAILURE);
+
+    if (0 == u8_in_len)
+        return (FAILURE);
+
+    if (NULL == u32_p_out)
+        return (FAILURE);
+
+    if (NULL == u8_p_out_len)
+        return (FAILURE);
+
+    u8   u8_quotient  = 0,
+         u8_remainder = 0;
+    u16 *u16_p_buffer = NULL;
+
+    u16_p_buffer = u16_p_in;
+    u8_quotient  = u8_in_len >> 1;
+    u8_remainder = u8_in_len  & 1;
+
+    for (u8 i = 0; u8_quotient > i; ++i)
+    {
+        *u32_p_out  = 0;
+
+        *u32_p_out  = *u16_p_buffer++ << 16;
+        *u32_p_out |= *u16_p_buffer++      ;
+
+        ++u32_p_out;
+    }
+
+    *u8_p_out_len = u8_quotient;
+    if (0 == u8_remainder)
+        return (SUCCESS);
+
+    *u8_p_out_len += 1;
+    for (u8 i = 0; u8_remainder > i; ++i)
+    {
+        *u32_p_out = 0;
+
+        *u32_p_out = *u16_p_buffer++ << ((1 - i) << 4);
+    }
+
     return (SUCCESS);
 } /* e_std_swap_type_u16_to_u32 */
 
@@ -248,6 +290,50 @@ state_e e_std_swap_type_u16_to_u32(const u16 *u16_p_in,  u8  u8_in_len,
 state_e e_std_swap_type_u16_to_u64(const u16 *u16_p_in,  u8  u8_in_len,
                                          u64 *u64_p_out, u8 *u8_p_out_len)
 {
+    if (NULL == u16_p_in)
+        return (FAILURE);
+
+    if (0 == u8_in_len)
+        return (FAILURE);
+
+    if (NULL == u64_p_out)
+        return (FAILURE);
+
+    if (NULL == u8_p_out_len)
+        return (FAILURE);
+
+    u8   u8_quotient  = 0,
+         u8_remainder = 0;
+    u16 *u16_p_buffer = NULL;
+
+    u16_p_buffer = u16_p_in;
+    u8_quotient  = u8_in_len >> 2;
+    u8_remainder = u8_in_len  & 3;
+
+    for (u8 i = 0; u8_quotient > i; ++i)
+    {
+        *u64_p_out  = 0;
+
+        *u64_p_out  = *u16_p_buffer++ << 48;
+        *u64_p_out |= *u16_p_buffer++ << 32;
+        *u64_p_out |= *u16_p_buffer++ << 16;
+        *u64_p_out |= *u16_p_buffer++      ;
+
+        ++u64_p_out;
+    }
+
+    *u8_p_out_len = u8_quotient;
+    if (0 == u8_remainder)
+        return (SUCCESS);
+
+    *u8_p_out_len += 1;
+    for (u8 i = 0; u8_remainder > i; ++i)
+    {
+        *u64_p_out = 0;
+
+        *u64_p_out = *u16_p_buffer++ << ((3 - i) << 4);
+    }
+
     return (SUCCESS);
 } /* e_std_swap_type_u16_to_u64 */
 
