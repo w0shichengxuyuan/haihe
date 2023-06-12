@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 21:14 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 10 2023 22:12 +0800
+ * @date Tue Jun 13 2023 00:53 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -129,8 +129,8 @@
     /**
      * @brief 位值取1
      *
-     * @param u32_p_data - 数据
-     * @param u8_bit     - 操作位
+     * @param[in] u32_p_data - 数据
+     * @param[in] u8_bit     - 操作位
      * @return SUCCESS
      *         FAILURE
      */
@@ -139,8 +139,8 @@
     /**
      * @brief 位值取0
      *
-     * @param u32_p_data - 数据
-     * @param u8_bit     - 操作位
+     * @param[in] u32_p_data - 数据
+     * @param[in] u8_bit     - 操作位
      * @return SUCCESS
      *         FAILURE
      */
@@ -149,8 +149,8 @@
     /**
      * @brief 位值取反
      *
-     * @param u32_p_data - 数据
-     * @param u8_bit     - 操作位
+     * @param[in] u32_p_data - 数据
+     * @param[in] u8_bit     - 操作位
      * @return SUCCESS
      *         FAILURE
      */
@@ -159,8 +159,8 @@
     /**
      * @brief 位值获取
      *
-     * @param u32_data - 数据
-     * @param u8_bit   - 操作位
+     * @param[in] u32_data - 数据
+     * @param[in] u8_bit   - 操作位
      * @return M_STD_SWAP_BIT_VAL_ZERO
      *         M_STD_SWAP_BIT_VAL_ONE
      */
