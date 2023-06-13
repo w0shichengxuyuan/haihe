@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 22:22 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 10 2023 23:43 +0800
+ * @date Tue Jun 13 2023 22:07 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -126,12 +126,12 @@
     /*function******************************************************************/
 
     /**
-     * @brief u8数组转u16数组
+     * @brief u8数据转u16数据
      *
-     * @param u8_p_in      - 输入数据
-     * @param u8_in_len    - 输入长度
-     * @param u16_p_out    - 输出数据
-     * @param u8_p_out_len - 输出长度
+     * @param[in]  u8_p_in      - 输入数据
+     * @param[in]  u8_in_len    - 输入长度
+     * @param[out] u16_p_out    - 输出数据
+     * @param[out] u8_p_out_len - 输出长度
      * @return SUCCESS
      *         FAILURE
      */
@@ -139,12 +139,12 @@
                                             u16 *u16_p_out, u8 *u8_p_out_len);
 
     /**
-     * @brief u8数组转u32数组
+     * @brief u8数据转u32数据
      *
-     * @param u8_p_in      - 输入数据
-     * @param u8_in_len    - 输入长度
-     * @param u16_p_out    - 输出数据
-     * @param u8_p_out_len - 输出长度
+     * @param[in]  u8_p_in      - 输入数据
+     * @param[in]  u8_in_len    - 输入长度
+     * @param[out] u32_p_out    - 输出数据
+     * @param[out] u8_p_out_len - 输出长度
      * @return SUCCESS
      *         FAILURE
      */
@@ -152,12 +152,12 @@
                                             u32 *u32_p_out, u8 *u8_p_out_len);
 
     /**
-     * @brief u8数组转u64数组
+     * @brief u8数据转u64数据
      *
-     * @param u8_p_in      - 输入数据
-     * @param u8_in_len    - 输入长度
-     * @param u16_p_out    - 输出数据
-     * @param u8_p_out_len - 输出长度
+     * @param[in]  u8_p_in      - 输入数据
+     * @param[in]  u8_in_len    - 输入长度
+     * @param[out] u64_p_out    - 输出数据
+     * @param[out] u8_p_out_len - 输出长度
      * @return SUCCESS
      *         FAILURE
      */
@@ -165,12 +165,12 @@
                                             u64 *u64_p_out, u8 *u8_p_out_len);
 
     /**
-     * @brief u16数组转u8数组
+     * @brief u16数据转u8数据
      *
-     * @param u16_p_in     - 输入数据
-     * @param u8_in_len    - 输入长度
-     * @param u8_p_out     - 输出数据
-     * @param u8_p_out_len - 输出长度
+     * @param[in]  u16_p_in     - 输入数据
+     * @param[in]  u8_in_len    - 输入长度
+     * @param[out] u8_p_out     - 输出数据
+     * @param[out] u8_p_out_len - 输出长度
      * @return SUCCESS
      *         FAILURE
      */
@@ -178,12 +178,12 @@
                                             u8  *u8_p_out, u8 *u8_p_out_len);
 
     /**
-     * @brief u16数组转u32数组
+     * @brief u16数据转u32数据
      *
-     * @param u16_p_in     - 输入数据
-     * @param u8_in_len    - 输入长度
-     * @param u32_p_out    - 输出数据
-     * @param u8_p_out_len - 输出长度
+     * @param[in]  u16_p_in     - 输入数据
+     * @param[in]  u8_in_len    - 输入长度
+     * @param[out] u32_p_out    - 输出数据
+     * @param[out] u8_p_out_len - 输出长度
      * @return SUCCESS
      *         FAILURE
      */
@@ -191,12 +191,12 @@
                                              u32 *u32_p_out, u8 *u8_p_out_len);
 
     /**
-     * @brief u16数组转u64数组
+     * @brief u16数据转u64数据
      *
-     * @param u16_p_in     - 输入数据
-     * @param u8_in_len    - 输入长度
-     * @param u64_p_out    - 输出数据
-     * @param u8_p_out_len - 输出长度
+     * @param[in]  u16_p_in     - 输入数据
+     * @param[in]  u8_in_len    - 输入长度
+     * @param[out] u64_p_out    - 输出数据
+     * @param[out] u8_p_out_len - 输出长度
      * @return SUCCESS
      *         FAILURE
      */
@@ -204,12 +204,12 @@
                                              u64 *u64_p_out, u8 *u8_p_out_len);
 
     /**
-     * @brief u32数组转u8数组
+     * @brief u32数据转u8数据
      *
-     * @param u32_p_in     - 输入数据
-     * @param u8_in_len    - 输入长度
-     * @param u8_p_out     - 输出数据
-     * @param u8_p_out_len - 输出长度
+     * @param[in]  u32_p_in     - 输入数据
+     * @param[in]  u8_in_len    - 输入长度
+     * @param[out] u8_p_out     - 输出数据
+     * @param[out] u8_p_out_len - 输出长度
      * @return SUCCESS
      *         FAILURE
      */
@@ -217,12 +217,12 @@
                                             u8  *u8_p_out, u8 *u8_p_out_len);
 
     /**
-     * @brief u32数组转u16数组
+     * @brief u32数据转u16数据
      *
-     * @param u32_p_in     - 输入数据
-     * @param u8_in_len    - 输入长度
-     * @param u16_p_out    - 输出数据
-     * @param u8_p_out_len - 输出长度
+     * @param[in]  u32_p_in     - 输入数据
+     * @param[in]  u8_in_len    - 输入长度
+     * @param[out] u16_p_out    - 输出数据
+     * @param[out] u8_p_out_len - 输出长度
      * @return SUCCESS
      *         FAILURE
      */
@@ -230,12 +230,12 @@
                                              u16 *u16_p_out, u8 *u8_p_out_len);
 
     /**
-     * @brief u32数组转u64数组
+     * @brief u32数据转u64数据
      *
-     * @param u32_p_in     - 输入数据
-     * @param u8_in_len    - 输入长度
-     * @param u64_p_out    - 输出数据
-     * @param u8_p_out_len - 输出长度
+     * @param[in]  u32_p_in     - 输入数据
+     * @param[in]  u8_in_len    - 输入长度
+     * @param[out] u64_p_out    - 输出数据
+     * @param[out] u8_p_out_len - 输出长度
      * @return SUCCESS
      *         FAILURE
      */
@@ -243,12 +243,12 @@
                                              u64 *u64_p_out, u8 *u8_p_out_len);
 
     /**
-     * @brief u64数组转u8数组
+     * @brief u64数据转u8数据
      *
-     * @param u64_p_in     - 输入数据
-     * @param u8_in_len    - 输入长度
-     * @param u8_p_out     - 输出数据
-     * @param u8_p_out_len - 输出长度
+     * @param[in]  u64_p_in     - 输入数据
+     * @param[in]  u8_in_len    - 输入长度
+     * @param[out] u8_p_out     - 输出数据
+     * @param[out] u8_p_out_len - 输出长度
      * @return SUCCESS
      *         FAILURE
      */
@@ -256,12 +256,12 @@
                                             u8  *u8_p_out, u8 *u8_p_out_len);
 
     /**
-     * @brief u64数组转u16数组
+     * @brief u64数据转u16数据
      *
-     * @param u64_p_in     - 输入数据
-     * @param u8_in_len    - 输入长度
-     * @param u16_p_out    - 输出数据
-     * @param u8_p_out_len - 输出长度
+     * @param[in]  u64_p_in     - 输入数据
+     * @param[in]  u8_in_len    - 输入长度
+     * @param[out] u16_p_out    - 输出数据
+     * @param[out] u8_p_out_len - 输出长度
      * @return SUCCESS
      *         FAILURE
      */
@@ -269,12 +269,12 @@
                                              u16 *u16_p_out, u8 *u8_p_out_len);
 
     /**
-     * @brief u64数组转u32数组
+     * @brief u64数据转u32数据
      *
-     * @param u64_p_in     - 输入数据
-     * @param u8_in_len    - 输入长度
-     * @param u32_p_out    - 输出数据
-     * @param u8_p_out_len - 输出长度
+     * @param[in]  u64_p_in     - 输入数据
+     * @param[in]  u8_in_len    - 输入长度
+     * @param[out] u32_p_out    - 输出数据
+     * @param[out] u8_p_out_len - 输出长度
      * @return SUCCESS
      *         FAILURE
      */
