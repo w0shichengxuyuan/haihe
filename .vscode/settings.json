@@ -14,6 +14,7 @@
         "std_swap_endian_private.h": "c",
         "std_swap_endian_public.h": "c",
         "std_swap_bit_private.h": "c",
-        "std_swap_type_public.h": "c"
+        "std_swap_type_public.h": "c",
+        "std_swap_bit_public.h": "c"
     }
 }
