@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 22:22 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sun Jun 11 2023 22:20 +0800
+ * @date Tue Jun 13 2023 22:10 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -22,12 +22,12 @@
 #include "std_swap_type_public.h"
 
 /**
- * @brief u8数组转u16数组
+ * @brief u8数据转u16数据
  *
- * @param u8_p_in      - 输入数据
- * @param u8_in_len    - 输入长度
- * @param u16_p_out    - 输出数据
- * @param u8_p_out_len - 输出长度
+ * @param[in]  u8_p_in      - 输入数据
+ * @param[in]  u8_in_len    - 输入长度
+ * @param[out] u16_p_out    - 输出数据
+ * @param[out] u8_p_out_len - 输出长度
  * @return SUCCESS
  *         FAILURE
  */
@@ -82,12 +82,12 @@ state_e e_std_swap_type_u8_to_u16(const u8  *u8_p_in,   u8  u8_in_len,
 } /* e_std_swap_type_u8_to_u16 */
 
 /**
- * @brief u8数组转u32数组
+ * @brief u8数据转u32数据
  *
- * @param u8_p_in      - 输入数据
- * @param u8_in_len    - 输入长度
- * @param u16_p_out    - 输出数据
- * @param u8_p_out_len - 输出长度
+ * @param[in]  u8_p_in      - 输入数据
+ * @param[in]  u8_in_len    - 输入长度
+ * @param[out] u32_p_out    - 输出数据
+ * @param[out] u8_p_out_len - 输出长度
  * @return SUCCESS
  *         FAILURE
  */
@@ -144,12 +144,12 @@ state_e e_std_swap_type_u8_to_u32(const u8  *u8_p_in,   u8  u8_in_len,
 } /* e_std_swap_type_u8_to_u32 */
 
 /**
- * @brief u8数组转u64数组
+ * @brief u8数据转u64数据
  *
- * @param u8_p_in      - 输入数据
- * @param u8_in_len    - 输入长度
- * @param u16_p_out    - 输出数据
- * @param u8_p_out_len - 输出长度
+ * @param[in]  u8_p_in      - 输入数据
+ * @param[in]  u8_in_len    - 输入长度
+ * @param[out] u64_p_out    - 输出数据
+ * @param[out] u8_p_out_len - 输出长度
  * @return SUCCESS
  *         FAILURE
  */
@@ -210,12 +210,12 @@ state_e e_std_swap_type_u8_to_u64(const u8  *u8_p_in,   u8  u8_in_len,
 } /* e_std_swap_type_u8_to_u64 */
 
 /**
- * @brief u16数组转u8数组
+ * @brief u16数据转u8数据
  *
- * @param u16_p_in     - 输入数据
- * @param u8_in_len    - 输入长度
- * @param u8_p_out     - 输出数据
- * @param u8_p_out_len - 输出长度
+ * @param[in]  u16_p_in     - 输入数据
+ * @param[in]  u8_in_len    - 输入长度
+ * @param[out] u8_p_out     - 输出数据
+ * @param[out] u8_p_out_len - 输出长度
  * @return SUCCESS
  *         FAILURE
  */
@@ -255,12 +255,12 @@ state_e e_std_swap_type_u16_to_u8(const u16 *u16_p_in, u8  u8_in_len,
 } /* e_std_swap_type_u16_to_u8 */
 
 /**
- * @brief u16数组转u32数组
+ * @brief u16数据转u32数据
  *
- * @param u16_p_in     - 输入数据
- * @param u8_in_len    - 输入长度
- * @param u32_p_out    - 输出数据
- * @param u8_p_out_len - 输出长度
+ * @param[in]  u16_p_in     - 输入数据
+ * @param[in]  u8_in_len    - 输入长度
+ * @param[out] u32_p_out    - 输出数据
+ * @param[out] u8_p_out_len - 输出长度
  * @return SUCCESS
  *         FAILURE
  */
@@ -315,12 +315,12 @@ state_e e_std_swap_type_u16_to_u32(const u16 *u16_p_in,  u8  u8_in_len,
 } /* e_std_swap_type_u16_to_u32 */
 
 /**
- * @brief u16数组转u64数组
+ * @brief u16数据转u64数据
  *
- * @param u16_p_in     - 输入数据
- * @param u8_in_len    - 输入长度
- * @param u64_p_out    - 输出数据
- * @param u8_p_out_len - 输出长度
+ * @param[in]  u16_p_in     - 输入数据
+ * @param[in]  u8_in_len    - 输入长度
+ * @param[out] u64_p_out    - 输出数据
+ * @param[out] u8_p_out_len - 输出长度
  * @return SUCCESS
  *         FAILURE
  */
@@ -377,12 +377,12 @@ state_e e_std_swap_type_u16_to_u64(const u16 *u16_p_in,  u8  u8_in_len,
 } /* e_std_swap_type_u16_to_u64 */
 
 /**
- * @brief u32数组转u8数组
+ * @brief u32数据转u8数据
  *
- * @param u32_p_in     - 输入数据
- * @param u8_in_len    - 输入长度
- * @param u8_p_out     - 输出数据
- * @param u8_p_out_len - 输出长度
+ * @param[in]  u32_p_in     - 输入数据
+ * @param[in]  u8_in_len    - 输入长度
+ * @param[out] u8_p_out     - 输出数据
+ * @param[out] u8_p_out_len - 输出长度
  * @return SUCCESS
  *         FAILURE
  */
@@ -424,12 +424,12 @@ state_e e_std_swap_type_u32_to_u8(const u32 *u32_p_in, u8  u8_in_len,
 } /* e_std_swap_type_u32_to_u8 */
 
 /**
- * @brief u32数组转u16数组
+ * @brief u32数据转u16数据
  *
- * @param u32_p_in     - 输入数据
- * @param u8_in_len    - 输入长度
- * @param u16_p_out    - 输出数据
- * @param u8_p_out_len - 输出长度
+ * @param[in]  u32_p_in     - 输入数据
+ * @param[in]  u8_in_len    - 输入长度
+ * @param[out] u16_p_out    - 输出数据
+ * @param[out] u8_p_out_len - 输出长度
  * @return SUCCESS
  *         FAILURE
  */
@@ -469,12 +469,12 @@ state_e e_std_swap_type_u32_to_u16(const u32 *u32_p_in,  u8  u8_in_len,
 } /* e_std_swap_type_u32_to_u16 */
 
 /**
- * @brief u32数组转u64数组
+ * @brief u32数据转u64数据
  *
- * @param u32_p_in     - 输入数据
- * @param u8_in_len    - 输入长度
- * @param u64_p_out    - 输出数据
- * @param u8_p_out_len - 输出长度
+ * @param[in]  u32_p_in     - 输入数据
+ * @param[in]  u8_in_len    - 输入长度
+ * @param[out] u64_p_out    - 输出数据
+ * @param[out] u8_p_out_len - 输出长度
  * @return SUCCESS
  *         FAILURE
  */
@@ -529,12 +529,12 @@ state_e e_std_swap_type_u32_to_u64(const u32 *u32_p_in,  u8  u8_in_len,
 } /* e_std_swap_type_u32_to_u64 */
 
 /**
- * @brief u64数组转u8数组
+ * @brief u64数据转u8数据
  *
- * @param u64_p_in     - 输入数据
- * @param u8_in_len    - 输入长度
- * @param u8_p_out     - 输出数据
- * @param u8_p_out_len - 输出长度
+ * @param[in]  u64_p_in     - 输入数据
+ * @param[in]  u8_in_len    - 输入长度
+ * @param[out] u8_p_out     - 输出数据
+ * @param[out] u8_p_out_len - 输出长度
  * @return SUCCESS
  *         FAILURE
  */
@@ -579,12 +579,12 @@ state_e e_std_swap_type_u64_to_u8(const u64 *u64_p_in, u8  u8_in_len,
 } /* e_std_swap_type_u64_to_u8 */
 
 /**
- * @brief u64数组转u16数组
+ * @brief u64数据转u16数据
  *
- * @param u64_p_in     - 输入数据
- * @param u8_in_len    - 输入长度
- * @param u16_p_out    - 输出数据
- * @param u8_p_out_len - 输出长度
+ * @param[in]  u64_p_in     - 输入数据
+ * @param[in]  u8_in_len    - 输入长度
+ * @param[out] u16_p_out    - 输出数据
+ * @param[out] u8_p_out_len - 输出长度
  * @return SUCCESS
  *         FAILURE
  */
@@ -626,12 +626,12 @@ state_e e_std_swap_type_u64_to_u16(const u64 *u64_p_in,  u8  u8_in_len,
 } /* e_std_swap_type_u64_to_u16 */
 
 /**
- * @brief u64数组转u32数组
+ * @brief u64数据转u32数据
  *
- * @param u64_p_in     - 输入数据
- * @param u8_in_len    - 输入长度
- * @param u32_p_out    - 输出数据
- * @param u8_p_out_len - 输出长度
+ * @param[in]  u64_p_in     - 输入数据
+ * @param[in]  u8_in_len    - 输入长度
+ * @param[out] u32_p_out    - 输出数据
+ * @param[out] u8_p_out_len - 输出长度
  * @return SUCCESS
  *         FAILURE
  */
