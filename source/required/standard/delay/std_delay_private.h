@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 12:46 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 10 2023 12:48 +0800
+ * @date Wed Jun 14 2023 21:54 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -45,7 +45,7 @@
 
         /*standard**************************************************************/
 
-
+        #include "std_type_public.h"
 
         /*system****************************************************************/
 
@@ -111,7 +111,13 @@
 
     /*enumeration***************************************************************/
 
-
+    typedef enum delay_size_e
+    {
+        E_DELAY_MIN_MAX_SIZE = 1,
+        E_DELAY_S_MAX_SIZE   = E_DELAY_MIN_MAX_SIZE*60,
+        E_DELAY_MS_MAX_SIZE  = E_DELAY_S_MAX_SIZE*1000,
+        E_DELAY_US_MAX_SIZE  = E_DELAY_MS_MAX_SIZE*1000,
+    } delay_size_e;
 
     /*union*********************************************************************/
 
