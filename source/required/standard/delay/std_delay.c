@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 12:46 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Wed Jun 14 2023 22:06 +0800
+ * @date Wed Jun 14 2023 22:20 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -25,7 +25,7 @@
  * @brief 基本延时
  *
  */
-void v_std_delay_do_nothing(void)
+vd v_std_delay_do_nothing(vd)
 {
     #if 0
         NOP();
@@ -49,7 +49,7 @@ void v_std_delay_do_nothing(void)
  *
  * @param[in] u32_size - 大小
  */
-void v_std_delay_us(u32 u32_size)
+vd v_std_delay_us(u32 u32_size)
 {
     if (0 == u32_size)
         return;
@@ -65,7 +65,7 @@ void v_std_delay_us(u32 u32_size)
  *
  * @param[in] u32_size - 大小
  */
-void v_std_delay_ms(u32 u32_size)
+vd v_std_delay_ms(u32 u32_size)
 {
     if (0 == u32_size)
         return;
@@ -81,7 +81,7 @@ void v_std_delay_ms(u32 u32_size)
  *
  * @param[in] u32_size - 大小
  */
-void v_std_delay_s(u32 u32_size)
+vd v_std_delay_s(u32 u32_size)
 {
     if (0 == u32_size)
         return;
@@ -97,7 +97,7 @@ void v_std_delay_s(u32 u32_size)
  *
  * @param[in] u32_size - 大小
  */
-void v_std_delay_min(u32 u32_size)
+vd v_std_delay_min(u32 u32_size)
 {
     if (0 == u32_size)
         return;
@@ -112,7 +112,7 @@ void v_std_delay_min(u32 u32_size)
  * @brief 1微秒延时
  *
  */
-void v_std_delay_1us(void)
+vd v_std_delay_1us(vd)
 {
     v_std_delay_us(1);
 } /* v_std_delay_1us */
@@ -121,7 +121,7 @@ void v_std_delay_1us(void)
  * @brief 10微秒延时
  *
  */
-void v_std_delay_10us(void)
+vd v_std_delay_10us(vd)
 {
     v_std_delay_us(10);
 } /* v_std_delay_10us */
@@ -130,7 +130,7 @@ void v_std_delay_10us(void)
  * @brief 50微秒延时
  *
  */
-void v_std_delay_50us(void)
+vd v_std_delay_50us(vd)
 {
     v_std_delay_us(50);
 } /* v_std_delay_50us */
@@ -139,7 +139,7 @@ void v_std_delay_50us(void)
  * @brief 100微秒延时
  *
  */
-void v_std_delay_100us(void)
+vd v_std_delay_100us(vd)
 {
     v_std_delay_us(100);
 } /* v_std_delay_100us */
@@ -148,7 +148,7 @@ void v_std_delay_100us(void)
  * @brief 200微秒延时
  *
  */
-void v_std_delay_200us(void)
+vd v_std_delay_200us(vd)
 {
     v_std_delay_us(200);
 } /* v_std_delay_200us */
@@ -157,7 +157,7 @@ void v_std_delay_200us(void)
  * @brief 500微秒延时
  *
  */
-void v_std_delay_500us(void)
+vd v_std_delay_500us(vd)
 {
     v_std_delay_us(500);
 } /* v_std_delay_500us */
@@ -166,7 +166,7 @@ void v_std_delay_500us(void)
  * @brief 1毫秒延时
  *
  */
-void v_std_delay_1ms(void)
+vd v_std_delay_1ms(vd)
 {
     v_std_delay_ms(1);
 } /* v_std_delay_1ms */
@@ -175,7 +175,7 @@ void v_std_delay_1ms(void)
  * @brief 10毫秒延时
  *
  */
-void v_std_delay_10ms(void)
+vd v_std_delay_10ms(vd)
 {
     v_std_delay_ms(10);
 } /* v_std_delay_10ms */
@@ -184,7 +184,7 @@ void v_std_delay_10ms(void)
  * @brief 50毫秒延时
  *
  */
-void v_std_delay_50ms(void)
+vd v_std_delay_50ms(vd)
 {
     v_std_delay_ms(50);
 } /* v_std_delay_50ms */
@@ -193,7 +193,7 @@ void v_std_delay_50ms(void)
  * @brief 100毫秒延时
  *
  */
-void v_std_delay_100ms(void)
+vd v_std_delay_100ms(vd)
 {
     v_std_delay_ms(100);
 } /* v_std_delay_100ms */
@@ -202,7 +202,7 @@ void v_std_delay_100ms(void)
  * @brief 200毫秒延时
  *
  */
-void v_std_delay_200ms(void)
+vd v_std_delay_200ms(vd)
 {
     v_std_delay_ms(200);
 } /* v_std_delay_200ms */
@@ -211,7 +211,7 @@ void v_std_delay_200ms(void)
  * @brief 500毫秒延时
  *
  */
-void v_std_delay_500ms(void)
+vd v_std_delay_500ms(vd)
 {
     v_std_delay_ms(500);
 } /* v_std_delay_500ms */
@@ -220,7 +220,7 @@ void v_std_delay_500ms(void)
  * @brief 1秒延时
  *
  */
-void v_std_delay_1s(void)
+vd v_std_delay_1s(vd)
 {
     v_std_delay_s(1);
 } /* v_std_delay_1s */
@@ -229,7 +229,7 @@ void v_std_delay_1s(void)
  * @brief 2秒延时
  *
  */
-void v_std_delay_2s(void)
+vd v_std_delay_2s(vd)
 {
     v_std_delay_s(2);
 } /* v_std_delay_2s */
@@ -238,7 +238,7 @@ void v_std_delay_2s(void)
  * @brief 5秒延时
  *
  */
-void v_std_delay_5s(void)
+vd v_std_delay_5s(vd)
 {
     v_std_delay_s(5);
 } /* v_std_delay_5s */
@@ -247,7 +247,7 @@ void v_std_delay_5s(void)
  * @brief 10秒延时
  *
  */
-void v_std_delay_10s(void)
+vd v_std_delay_10s(vd)
 {
     v_std_delay_s(10);
 } /* v_std_delay_10s */
@@ -256,7 +256,7 @@ void v_std_delay_10s(void)
  * @brief 15秒延时
  *
  */
-void v_std_delay_15s(void)
+vd v_std_delay_15s(vd)
 {
     v_std_delay_s(15);
 } /* v_std_delay_15s */
@@ -265,7 +265,7 @@ void v_std_delay_15s(void)
  * @brief 20秒延时
  *
  */
-void v_std_delay_20s(void)
+vd v_std_delay_20s(vd)
 {
     v_std_delay_s(20);
 } /* v_std_delay_20s */
@@ -274,7 +274,7 @@ void v_std_delay_20s(void)
  * @brief 30秒延时
  *
  */
-void v_std_delay_30s(void)
+vd v_std_delay_30s(vd)
 {
     v_std_delay_s(30);
 } /* v_std_delay_30s */
@@ -283,7 +283,7 @@ void v_std_delay_30s(void)
  * @brief 1分钟延时
  *
  */
-void v_std_delay_1min(void)
+vd v_std_delay_1min(vd)
 {
     v_std_delay_min(1);
 } /* v_std_delay_1min */
