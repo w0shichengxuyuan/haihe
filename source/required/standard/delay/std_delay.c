@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 12:46 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Wed Jun 14 2023 22:02 +0800
+ * @date Wed Jun 14 2023 22:06 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -47,7 +47,7 @@ void v_std_delay_do_nothing(void)
 /**
  * @brief 微秒延时
  *
- * @param u32_size
+ * @param[in] u32_size - 大小
  */
 void v_std_delay_us(u32 u32_size)
 {
@@ -63,7 +63,7 @@ void v_std_delay_us(u32 u32_size)
 /**
  * @brief 毫秒延时
  *
- * @param u32_size
+ * @param[in] u32_size - 大小
  */
 void v_std_delay_ms(u32 u32_size)
 {
@@ -79,7 +79,7 @@ void v_std_delay_ms(u32 u32_size)
 /**
  * @brief 秒延时
  *
- * @param u32_size
+ * @param[in] u32_size - 大小
  */
 void v_std_delay_s(u32 u32_size)
 {
@@ -95,7 +95,7 @@ void v_std_delay_s(u32 u32_size)
 /**
  * @brief 分钟延时
  *
- * @param u32_size
+ * @param[in] u32_size - 大小
  */
 void v_std_delay_min(u32 u32_size)
 {
