@@ -5,7 +5,7 @@
  * @since Sat Apr 29 2023 17:14 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Wed Jun 14 2023 22:17 +0800
+ * @date Fri Jun 16 2023 23:45 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -79,11 +79,11 @@
 
     /*boolean*******************************************************************/
 
-    #ifdef __STD_C99__
+    #ifdef __C99__
     typedef _Bool                 bool;
     #else
     typedef int                   bool;
-    #endif /* __STD_C99__ */
+    #endif /* __C99__ */
 
     /*char**********************************************************************/
 
