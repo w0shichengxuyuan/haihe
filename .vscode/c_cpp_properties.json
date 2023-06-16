@@ -28,6 +28,7 @@
                 "${workspaceFolder}/source/required/autosar/swc/**",
 
                 "${workspaceFolder}/source/required/standard/**",
+                "${workspaceFolder}/source/required/standard/assert/**",
                 "${workspaceFolder}/source/required/standard/crypto/**",
                 "${workspaceFolder}/source/required/standard/crypto/aes/**",
                 "${workspaceFolder}/source/required/standard/crypto/checksum/**",
