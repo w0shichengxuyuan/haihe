@@ -41,6 +41,7 @@
                 "${workspaceFolder}/source/required/standard/library/**",
                 "${workspaceFolder}/source/required/standard/math/**",
                 "${workspaceFolder}/source/required/standard/state/**",
+                "${workspaceFolder}/source/required/standard/string/**",
                 "${workspaceFolder}/source/required/standard/swap/**",
                 "${workspaceFolder}/source/required/standard/swap/bit/**",
                 "${workspaceFolder}/source/required/standard/swap/endian/**",

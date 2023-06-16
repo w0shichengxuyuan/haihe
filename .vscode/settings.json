@@ -19,6 +19,7 @@
         "std_swap_bit_public.h": "c",
         "std_delay_private.h": "c",
         "std_math_public.h": "c",
-        "std_delay_hw_public.h": "c"
+        "std_delay_hw_public.h": "c",
+        "std_string_public.h": "c"
     }
 }
