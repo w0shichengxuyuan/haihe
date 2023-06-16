@@ -5,7 +5,7 @@
  * @since Sat Apr 29 2023 17:25 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Fri Jun 16 2023 23:40 +0800
+ * @date Fri Jun 16 2023 23:42 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -48,7 +48,6 @@
         #include "std_assert_public.h"
         #include "std_crypto_public.h"
         #include "std_delay_public.h"
-        #include "std_lib_public.h"
         #include "std_math_public.h"
         #include "std_state_public.h"
         #include "std_string_public.h"
