@@ -1,8 +1,8 @@
 /**
- * @file std_public.h
- * @brief 标准公有文件
+ * @file std_sort_private.h
+ * @brief 标准排序私有文件
  * @author openc0de (openc0de@hotmail.com)
- * @since Sat Apr 29 2023 17:25 +0800
+ * @since Sat Jun 17 2023 15:52 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
  * @date Sat Jun 17 2023 15:54 +0800
@@ -14,12 +14,12 @@
  * -----------------------------------------------------------------------------
  *    version   |             date            |       by       |    comments
  * ------------ | --------------------------- | -------------- | ---------------
- *   0.00.001   | Sat Apr 29 2023 17:25 +0800 |    openc0de    | 初版
+ *   0.00.001   | Sat Jun 17 2023 15:52 +0800 |    openc0de    | 初版
  * -----------------------------------------------------------------------------
  */
 
-#ifndef __STD_PUBLIC_H__
-#define __STD_PUBLIC_H__
+#ifndef __STD_SORT_PRIVATE_H__
+#define __STD_SORT_PRIVATE_H__
 
 /*header files******************************************************************/
 
@@ -45,16 +45,7 @@
 
         /*standard**************************************************************/
 
-        #include "std_assert_public.h"
-        #include "std_crypto_public.h"
-        #include "std_delay_public.h"
-        #include "std_filter_public.h"
-        #include "std_math_public.h"
-        #include "std_sort_public.h"
-        #include "std_state_public.h"
-        #include "std_string_public.h"
-        #include "std_swap_public.h"
-        #include "std_type_public.h"
+
 
         /*system****************************************************************/
 
@@ -132,8 +123,12 @@
 
 /*declarations******************************************************************/
 
+    /*variable******************************************************************/
+
+
+
     /*function******************************************************************/
 
 
 
-#endif /* __STD_PUBLIC_H__ */
+#endif /* __STD_SORT_PRIVATE_H__ */

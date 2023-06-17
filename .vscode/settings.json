@@ -22,6 +22,7 @@
         "std_delay_hw_public.h": "c",
         "std_string_public.h": "c",
         "std_filter_private.h": "c",
-        "std_filter_public.h": "c"
+        "std_filter_public.h": "c",
+        "std_sort_private.h": "c"
     }
 }
