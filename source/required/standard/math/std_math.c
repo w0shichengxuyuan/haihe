@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 21:57 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Fri Jun 16 2023 23:25 +0800
+ * @date Sat Jun 17 2023 16:24 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -47,7 +47,7 @@ u32 u32_std_math_addition(u32 u32_augend, u32 u32_addend)
     }
     else
     {
-        /* @todo 异常 */
+        v_std_assert();
     }
 
     return (u32_sum);
@@ -71,7 +71,7 @@ u32 u32_std_math_subtraction(u32 u32_minuend, u32 u32_subtrahend)
     }
     else if (0 == u32_minuend)
     {
-        /* @todo 异常 */
+        v_std_assert();
     }
     else if (u32_minuend = u32_subtrahend)
     {
@@ -83,7 +83,7 @@ u32 u32_std_math_subtraction(u32 u32_minuend, u32 u32_subtrahend)
     }
     else
     {
-        /* @todo 异常 */
+        v_std_assert();
     }
 
     return (u32_difference);
@@ -123,7 +123,7 @@ u32 u32_std_math_multiplication(u32 u32_multiplicand, u32 u32_multiplier)
     }
     else
     {
-        /* @todo 异常 */
+        v_std_assert();
     }
 
     return (u32_product);
@@ -143,7 +143,7 @@ u32 u32_std_math_division_quotient(u32 u32_dividend, u32 u32_divisor)
 
     if (0 == u32_divisor)
     {
-        /* @todo 异常 */
+        v_std_assert();
     }
     else if (0 == u32_dividend)
     {
@@ -187,7 +187,7 @@ u32 u32_std_math_division_remainder(u32 u32_dividend, u32 u32_divisor)
 
     if (0 == u32_divisor)
     {
-        /* @todo 异常 */
+        v_std_assert();
     }
     else if (0 == u32_dividend)
     {
