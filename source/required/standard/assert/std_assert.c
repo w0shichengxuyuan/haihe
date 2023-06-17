@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 23:31 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 17 2023 16:12 +0800
+ * @date Sat Jun 17 2023 16:20 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -20,6 +20,15 @@
 
 #include "std_assert_private.h"
 #include "std_assert_public.h"
+
+/**
+ * @brief 基本断言
+ *
+ */
+vd v_std_assert(vd)
+{
+    for (;;);
+} /* v_std_assert */
 
 /**
  * @brief 指针断言
