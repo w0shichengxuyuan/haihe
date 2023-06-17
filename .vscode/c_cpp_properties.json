@@ -40,6 +40,8 @@
                 "${workspaceFolder}/source/required/standard/delay/software/**",
                 "${workspaceFolder}/source/required/standard/filter/**",
                 "${workspaceFolder}/source/required/standard/math/**",
+                "${workspaceFolder}/source/required/standard/search/**",
+                "${workspaceFolder}/source/required/standard/sort/**",
                 "${workspaceFolder}/source/required/standard/state/**",
                 "${workspaceFolder}/source/required/standard/string/**",
                 "${workspaceFolder}/source/required/standard/swap/**",
