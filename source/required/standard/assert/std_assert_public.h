@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 23:31 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Fri Jun 16 2023 23:32 +0800
+ * @date Sat Jun 17 2023 16:10 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -125,6 +125,43 @@
 
     /*function******************************************************************/
 
+    /**
+     * @brief 指针断言
+     *
+     * @param v_p_value - 指针
+     */
+    vd v_std_assert_pointer(vd *v_p_value);
 
+    /**
+     * @brief 最小值有效断言
+     *
+     * @param u32_min   - 最小值
+     * @param u32_value - 当前值
+     */
+    vd v_std_assert_min_valid(u32 u32_min, u32 u32_value);
+
+    /**
+     * @brief 最小值无效断言
+     *
+     * @param u32_min   - 最小值
+     * @param u32_value - 当前值
+     */
+    vd v_std_assert_min_invalid(u32 u32_min, u32 u32_value);
+
+    /**
+     * @brief 最大值有效断言
+     *
+     * @param u32_max   - 最大值
+     * @param u32_value - 当前值
+     */
+    vd v_std_assert_max_valid(u32 u32_max, u32 u32_value);
+
+    /**
+     * @brief 最大值无效断言
+     *
+     * @param u32_max   - 最大值
+     * @param u32_value - 当前值
+     */
+    vd v_std_assert_max_invalid(u32 u32_max, u32 u32_value);
 
 #endif /* __STD_ASSERT_PUBLIC_H__ */
