@@ -38,7 +38,7 @@
                 "${workspaceFolder}/source/required/standard/crypto/random/**",
                 "${workspaceFolder}/source/required/standard/delay/**",
                 "${workspaceFolder}/source/required/standard/delay/software/**",
-                "${workspaceFolder}/source/required/standard/library/**",
+                "${workspaceFolder}/source/required/standard/filter/**",
                 "${workspaceFolder}/source/required/standard/math/**",
                 "${workspaceFolder}/source/required/standard/state/**",
                 "${workspaceFolder}/source/required/standard/string/**",
