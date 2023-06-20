@@ -5,7 +5,7 @@
  * @since Sun Apr 30 2023 20:16:20 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Wed Jun 14 2023 22:22 +0800
+ * @date Tue Jun 20 2023 23:06 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -25,7 +25,7 @@
  *
  * @return 0
  */
-i32 main(vd)
+i32 main(void)
 {
     return (0);
 } /* main */

@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 23:38 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Fri Jun 16 2023 23:42 +0800
+ * @date Tue Jun 20 2023 23:06 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -103,7 +103,7 @@
 
     /*macro*********************************************************************/
 
-    #define NULL    ((vd *)0)
+    #define NULL    ((void *)0)
 
     /*structure*****************************************************************/
 

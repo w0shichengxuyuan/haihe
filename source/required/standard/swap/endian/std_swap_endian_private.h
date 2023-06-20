@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 12:29 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Fri Jun 16 2023 23:47 +0800
+ * @date Tue Jun 20 2023 23:06 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -171,6 +171,6 @@
 
     /*function******************************************************************/
 
-    static endian_b b_get_endian(vd);
+    static endian_b b_get_endian(void);
 
 #endif /* __STD_SWAP_ENDIAN_PRIVATE_H__ */

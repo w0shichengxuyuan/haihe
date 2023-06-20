@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 12:29 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Wed Jun 14 2023 22:21 +0800
+ * @date Tue Jun 20 2023 23:06 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -199,7 +199,7 @@ state_e e_std_swap_endian_big64(u64 *u64_p_data)
  * @return M_LIEELE_ENDIAN
  *         M_BIG_ENDIAN
  */
-static endian_b b_get_endian(vd)
+static endian_b b_get_endian(void)
 {
     u16 u16_value = 0x1234;
     u8 *u8_p_temp = NULL;

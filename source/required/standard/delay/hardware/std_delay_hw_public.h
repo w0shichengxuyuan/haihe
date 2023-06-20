@@ -5,7 +5,7 @@
  * @since Thu Jun 15 2023 22:16 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Thu Jun 15 2023 22:24 +0800
+ * @date Tue Jun 20 2023 23:06 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -129,154 +129,154 @@
      * @brief 基本硬件延时
      *
      */
-    vd v_std_delay_hw_do_nothing(vd);
+    void v_std_delay_hw_do_nothing(void);
 
     /**
      * @brief 微秒硬件延时
      *
      * @param[in] u32_size - 大小
      */
-    vd v_std_delay_hw_us(u32 u32_size);
+    void v_std_delay_hw_us(u32 u32_size);
 
     /**
      * @brief 毫秒硬件延时
      *
      * @param[in] u32_size - 大小
      */
-    vd v_std_delay_hw_ms(u32 u32_size);
+    void v_std_delay_hw_ms(u32 u32_size);
 
     /**
      * @brief 秒硬件延时
      *
      * @param[in] u32_size - 大小
      */
-    vd v_std_delay_hw_s(u32 u32_size);
+    void v_std_delay_hw_s(u32 u32_size);
 
     /**
      * @brief 分钟硬件延时
      *
      * @param[in] u32_size - 大小
      */
-    vd v_std_delay_hw_min(u32 u32_size);
+    void v_std_delay_hw_min(u32 u32_size);
 
     /**
      * @brief 1微秒硬件延时
      *
      */
-    vd v_std_delay_hw_1us(vd);
+    void v_std_delay_hw_1us(void);
 
     /**
      * @brief 10微秒硬件延时
      *
      */
-    vd v_std_delay_hw_10us(vd);
+    void v_std_delay_hw_10us(void);
 
     /**
      * @brief 50微秒硬件延时
      *
      */
-    vd v_std_delay_hw_50us(vd);
+    void v_std_delay_hw_50us(void);
 
     /**
      * @brief 100微秒硬件延时
      *
      */
-    vd v_std_delay_hw_100us(vd);
+    void v_std_delay_hw_100us(void);
 
     /**
      * @brief 200微秒硬件延时
      *
      */
-    vd v_std_delay_hw_200us(vd);
+    void v_std_delay_hw_200us(void);
 
     /**
      * @brief 500微秒硬件延时
      *
      */
-    vd v_std_delay_hw_500us(vd);
+    void v_std_delay_hw_500us(void);
 
     /**
      * @brief 1毫秒硬件延时
      *
      */
-    vd v_std_delay_hw_1ms(vd);
+    void v_std_delay_hw_1ms(void);
 
     /**
      * @brief 10毫秒硬件延时
      *
      */
-    vd v_std_delay_hw_10ms(vd);
+    void v_std_delay_hw_10ms(void);
 
     /**
      * @brief 50毫秒硬件延时
      *
      */
-    vd v_std_delay_hw_50ms(vd);
+    void v_std_delay_hw_50ms(void);
 
     /**
      * @brief 100毫秒硬件延时
      *
      */
-    vd v_std_delay_hw_100ms(vd);
+    void v_std_delay_hw_100ms(void);
 
     /**
      * @brief 200毫秒硬件延时
      *
      */
-    vd v_std_delay_hw_200ms(vd);
+    void v_std_delay_hw_200ms(void);
 
     /**
      * @brief 500毫秒硬件延时
      *
      */
-    vd v_std_delay_hw_500ms(vd);
+    void v_std_delay_hw_500ms(void);
 
     /**
      * @brief 1秒硬件延时
      *
      */
-    vd v_std_delay_hw_1s(vd);
+    void v_std_delay_hw_1s(void);
 
     /**
      * @brief 2秒硬件延时
      *
      */
-    vd v_std_delay_hw_2s(vd);
+    void v_std_delay_hw_2s(void);
 
     /**
      * @brief 5秒硬件延时
      *
      */
-    vd v_std_delay_hw_5s(vd);
+    void v_std_delay_hw_5s(void);
 
     /**
      * @brief 10秒硬件延时
      *
      */
-    vd v_std_delay_hw_10s(vd);
+    void v_std_delay_hw_10s(void);
 
     /**
      * @brief 15秒硬件延时
      *
      */
-    vd v_std_delay_hw_15s(vd);
+    void v_std_delay_hw_15s(void);
 
     /**
      * @brief 20秒硬件延时
      *
      */
-    vd v_std_delay_hw_20s(vd);
+    void v_std_delay_hw_20s(void);
 
     /**
      * @brief 30秒硬件延时
      *
      */
-    vd v_std_delay_hw_30s(vd);
+    void v_std_delay_hw_30s(void);
 
     /**
      * @brief 1分钟硬件延时
      *
      */
-    vd v_std_delay_hw_1min(vd);
+    void v_std_delay_hw_1min(void);
 
 #endif /* __STD_DELAY_HW_PUBLIC_H__ */
