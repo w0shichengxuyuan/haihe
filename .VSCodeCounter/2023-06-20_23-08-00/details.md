@@ -1,10 +1,10 @@
 # Details
 
-Date : 2023-06-13 22:15:04
+Date : 2023-06-20 23:08:00
 
 Directory e:\\code\\haihe
 
-Total : 35 files,  743 codes, 1672 comments, 2022 blanks, all 4437 lines
+Total : 56 files,  1182 codes, 2824 comments, 3270 blanks, all 7276 lines
 
 [Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
@@ -13,21 +13,42 @@ Total : 35 files,  743 codes, 1672 comments, 2022 blanks, all 4437 lines
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | [README.md](/README.md) | Markdown | 1 | 0 | 0 | 1 |
 | [source/required/main.c](/source/required/main.c) | C | 5 | 24 | 3 | 32 |
+| [source/required/standard/assert/std_assert.c](/source/required/standard/assert/std_assert.c) | C | 53 | 52 | 8 | 113 |
+| [source/required/standard/assert/std_assert_private.h](/source/required/standard/assert/std_assert_private.h) | C | 5 | 48 | 83 | 136 |
+| [source/required/standard/assert/std_assert_public.h](/source/required/standard/assert/std_assert_public.h) | C | 9 | 80 | 85 | 174 |
 | [source/required/standard/crypto/std_crypto.c](/source/required/standard/crypto/std_crypto.c) | C | 2 | 19 | 2 | 23 |
 | [source/required/standard/crypto/std_crypto_private.h](/source/required/standard/crypto/std_crypto_private.h) | C | 3 | 48 | 84 | 135 |
 | [source/required/standard/crypto/std_crypto_public.h](/source/required/standard/crypto/std_crypto_public.h) | C | 3 | 47 | 81 | 131 |
+| [source/required/standard/delay/hardware/std_delay_hw.c](/source/required/standard/delay/hardware/std_delay_hw.c) | C | 129 | 123 | 38 | 290 |
+| [source/required/standard/delay/hardware/std_delay_hw_private.h](/source/required/standard/delay/hardware/std_delay_hw_private.h) | C++ | 11 | 48 | 82 | 141 |
+| [source/required/standard/delay/hardware/std_delay_hw_public.h](/source/required/standard/delay/hardware/std_delay_hw_public.h) | C | 28 | 151 | 104 | 283 |
+| [source/required/standard/delay/software/std_delay_sw.c](/source/required/standard/delay/software/std_delay_sw.c) | C | 2 | 19 | 2 | 23 |
+| [source/required/standard/delay/software/std_delay_sw_private.h](/source/required/standard/delay/software/std_delay_sw_private.h) | C++ | 4 | 48 | 83 | 135 |
+| [source/required/standard/delay/software/std_delay_sw_public.h](/source/required/standard/delay/software/std_delay_sw_public.h) | C++ | 3 | 47 | 81 | 131 |
 | [source/required/standard/delay/std_delay.c](/source/required/standard/delay/std_delay.c) | C | 2 | 19 | 2 | 23 |
-| [source/required/standard/delay/std_delay_private.h](/source/required/standard/delay/std_delay_private.h) | C++ | 3 | 48 | 84 | 135 |
-| [source/required/standard/delay/std_delay_public.h](/source/required/standard/delay/std_delay_public.h) | C | 3 | 47 | 81 | 131 |
-| [source/required/standard/library/std_lib.c](/source/required/standard/library/std_lib.c) | C | 2 | 19 | 2 | 23 |
-| [source/required/standard/library/std_lib_private.h](/source/required/standard/library/std_lib_private.h) | C++ | 3 | 48 | 84 | 135 |
-| [source/required/standard/library/std_lib_public.h](/source/required/standard/library/std_lib_public.h) | C | 4 | 47 | 80 | 131 |
+| [source/required/standard/delay/std_delay_private.h](/source/required/standard/delay/std_delay_private.h) | C | 3 | 48 | 84 | 135 |
+| [source/required/standard/delay/std_delay_public.h](/source/required/standard/delay/std_delay_public.h) | C | 5 | 47 | 79 | 131 |
+| [source/required/standard/filter/std_filter.c](/source/required/standard/filter/std_filter.c) | C | 2 | 19 | 2 | 23 |
+| [source/required/standard/filter/std_filter_private.h](/source/required/standard/filter/std_filter_private.h) | C | 3 | 48 | 84 | 135 |
+| [source/required/standard/filter/std_filter_public.h](/source/required/standard/filter/std_filter_public.h) | C | 3 | 47 | 81 | 131 |
+| [source/required/standard/math/std_math.c](/source/required/standard/math/std_math.c) | C | 143 | 59 | 17 | 219 |
+| [source/required/standard/math/std_math_private.h](/source/required/standard/math/std_math_private.h) | C++ | 6 | 48 | 83 | 137 |
+| [source/required/standard/math/std_math_public.h](/source/required/standard/math/std_math_public.h) | C | 14 | 87 | 83 | 184 |
+| [source/required/standard/search/std_search.c](/source/required/standard/search/std_search.c) | C | 2 | 19 | 2 | 23 |
+| [source/required/standard/search/std_search_private.h](/source/required/standard/search/std_search_private.h) | C | 3 | 48 | 84 | 135 |
+| [source/required/standard/search/std_search_public.h](/source/required/standard/search/std_search_public.h) | C++ | 3 | 47 | 81 | 131 |
+| [source/required/standard/sort/std_sort.c](/source/required/standard/sort/std_sort.c) | C | 2 | 19 | 2 | 23 |
+| [source/required/standard/sort/std_sort_private.h](/source/required/standard/sort/std_sort_private.h) | C | 3 | 48 | 84 | 135 |
+| [source/required/standard/sort/std_sort_public.h](/source/required/standard/sort/std_sort_public.h) | C++ | 3 | 47 | 81 | 131 |
 | [source/required/standard/state/std_state.c](/source/required/standard/state/std_state.c) | C | 2 | 19 | 2 | 23 |
 | [source/required/standard/state/std_state_private.h](/source/required/standard/state/std_state_private.h) | C++ | 3 | 48 | 84 | 135 |
 | [source/required/standard/state/std_state_public.h](/source/required/standard/state/std_state_public.h) | C | 8 | 47 | 80 | 135 |
 | [source/required/standard/std.c](/source/required/standard/std.c) | C | 2 | 19 | 2 | 23 |
 | [source/required/standard/std_private.h](/source/required/standard/std_private.h) | C | 3 | 48 | 84 | 135 |
-| [source/required/standard/std_public.h](/source/required/standard/std_public.h) | C | 8 | 47 | 80 | 135 |
+| [source/required/standard/std_public.h](/source/required/standard/std_public.h) | C | 14 | 47 | 80 | 141 |
+| [source/required/standard/string/std_string.c](/source/required/standard/string/std_string.c) | C | 2 | 19 | 2 | 23 |
+| [source/required/standard/string/std_string_private.h](/source/required/standard/string/std_string_private.h) | C++ | 3 | 48 | 84 | 135 |
+| [source/required/standard/string/std_string_public.h](/source/required/standard/string/std_string_public.h) | C | 4 | 47 | 80 | 131 |
 | [source/required/standard/swap/bit/std_swap_bit.c](/source/required/standard/swap/bit/std_swap_bit.c) | C | 29 | 51 | 14 | 94 |
 | [source/required/standard/swap/bit/std_swap_bit_private.h](/source/required/standard/swap/bit/std_swap_bit_private.h) | C | 6 | 48 | 83 | 137 |
 | [source/required/standard/swap/bit/std_swap_bit_public.h](/source/required/standard/swap/bit/std_swap_bit_public.h) | C | 10 | 79 | 81 | 170 |
