@@ -5,7 +5,7 @@
  * @since Sat Jun 17 2023 15:52 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 24 2023 22:37 +0800
+ * @date Sat Jun 24 2023 22:40 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -57,7 +57,7 @@ void v_std_bubble_sort(u8 *u8_p_data, u32 u32_length)
  * @param u32_length - 数据长度
  * @ref https://mp.weixin.qq.com/s/jEndG6rEEKPQMOw8ZgdJiw
  */
-void v_std_select_min_sort(u8 *u8_p_data, u32 u32_length)
+void v_std_min_selection_sort(u8 *u8_p_data, u32 u32_length)
 {
     v_std_assert_pointer(u8_p_data);
     v_std_assert_min_invalid(0, u32_length);
@@ -83,7 +83,7 @@ void v_std_select_min_sort(u8 *u8_p_data, u32 u32_length)
         u8_p_data[i] = u8_p_data[u32_min];
         u8_p_data[u32_min] = u8_tmp;
     }
-} /* v_std_select_min_sort */
+} /* v_std_min_selection_sort */
 
 /**
  * @brief 选择最大排序
@@ -92,7 +92,7 @@ void v_std_select_min_sort(u8 *u8_p_data, u32 u32_length)
  * @param u32_length - 数据长度
  * @ref https://mp.weixin.qq.com/s/jEndG6rEEKPQMOw8ZgdJiw
  */
-void v_std_select_max_sort(u8 *u8_p_data, u32 u32_length)
+void v_std_max_selection_sort(u8 *u8_p_data, u32 u32_length)
 {
     v_std_assert_pointer(u8_p_data);
     v_std_assert_min_invalid(0, u32_length);
@@ -118,4 +118,4 @@ void v_std_select_max_sort(u8 *u8_p_data, u32 u32_length)
         u8_p_data[i] = u8_p_data[u32_max];
         u8_p_data[u32_max] = u8_tmp;
     }
-} /* v_std_select_max_sort */
+} /* v_std_max_selection_sort */
