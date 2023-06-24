@@ -5,7 +5,7 @@
  * @since Sat Jun 17 2023 15:52 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 24 2023 22:53 +0800
+ * @date Sat Jun 24 2023 22:58 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -150,12 +150,12 @@ void v_std_max_selection_sort(u8 *u8_p_data, u32 u32_length)
 } /* v_std_max_selection_sort */
 
 /**
- * @brief 插入排序
+ * @brief 最小插入排序
  *
  * @param u8_p_data  - 数据
  * @param u32_length - 数据长度
  */
-void v_std_insertion_sort(u8 *u8_p_data, u32 u32_length)
+void v_std_min_insertion_sort(u8 *u8_p_data, u32 u32_length)
 {
     v_std_assert_pointer(u8_p_data);
     v_std_assert_min_invalid(0, u32_length);
@@ -180,4 +180,4 @@ void v_std_insertion_sort(u8 *u8_p_data, u32 u32_length)
             u8_p_data[j + 1] = u8_tmp;
         }
     }
-} /* v_std_insertion_sort */
+} /* v_std_min_insertion_sort */
