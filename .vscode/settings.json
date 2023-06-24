@@ -26,6 +26,7 @@
         "std_sort_private.h": "c",
         "std_search_private.h": "c",
         "std_assert_public.h": "c",
-        "std_assert_private.h": "c"
+        "std_assert_private.h": "c",
+        "std_sort_public.h": "c"
     }
 }
