@@ -5,7 +5,7 @@
  * @since Sun Jun 25 2023 11:59 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sun Jun 25 2023 12:21 +0800
+ * @date Sun Jun 25 2023 12:22 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -148,5 +148,13 @@
      * @param[in] u32_p_destin - 目的数据
      */
     void v_std_swap_u32_value(u32 *u32_p_source, u32 *u32_p_destin);
+
+    /**
+     * @brief u64值转换
+     *
+     * @param[in] u64_p_source - 源头数据
+     * @param[in] u64_p_destin - 目的数据
+     */
+    void v_std_swap_u64_value(u64 *u64_p_source, u64 *u64_p_destin);
 
 #endif /* __STD_SWAP_VALUE_PUBLIC_H__ */
