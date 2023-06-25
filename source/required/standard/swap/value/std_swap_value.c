@@ -5,7 +5,7 @@
  * @since Sun Jun 25 2023 11:59 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sun Jun 25 2023 12:18 +0800
+ * @date Sun Jun 25 2023 12:19 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -38,3 +38,21 @@ void v_std_swap_u8_value(u8 *u8_p_source, u8 *u8_p_destin)
     *u8_p_destin = *u8_p_source;
     *u8_p_source = u8_tmp;
 } /* v_std_swap_u8_value */
+
+/**
+ * @brief u16值转换
+ *
+ * @param[in] u16_p_source - 源头数据
+ * @param[in] u16_p_destin - 目的数据
+ */
+void v_std_swap_u16_value(u16 *u16_p_source, u8 *u16_p_destin)
+{
+    v_std_assert_pointer(u16_p_source);
+    v_std_assert_pointer(u16_p_destin);
+
+    u16 u16_tmp = 0;
+
+    u16_tmp = *u16_p_destin;
+    *u16_p_destin = *u16_p_source;
+    *u16_p_source = u16_tmp;
+} /* v_std_swap_u16_value */
