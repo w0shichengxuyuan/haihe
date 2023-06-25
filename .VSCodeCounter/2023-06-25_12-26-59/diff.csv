@@ -1,0 +1,9 @@
+"filename", "language", "C", "C++", "comment", "blank", "total"
+"e:\code\haihe\source\required\standard\sort\std_sort.c", "C", 126, 0, 40, 28, 194
+"e:\code\haihe\source\required\standard\sort\std_sort_private.h", "C", 4, 0, 0, -2, 2
+"e:\code\haihe\source\required\standard\sort\std_sort_public.h", "C", 6, 0, 40, 4, 50
+"e:\code\haihe\source\required\standard\swap\std_swap_public.h", "C", 1, 0, 0, 0, 1
+"e:\code\haihe\source\required\standard\swap\value\std_swap_value.c", "C", 38, 0, 43, 14, 95
+"e:\code\haihe\source\required\standard\swap\value\std_swap_value_private.h", "C++", 0, 6, 48, 83, 137
+"e:\code\haihe\source\required\standard\swap\value\std_swap_value_public.h", "C", 7, 0, 71, 83, 161
+"Total", "-", 182, 6, 242, 210, 640
