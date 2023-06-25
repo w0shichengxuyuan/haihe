@@ -5,7 +5,7 @@
  * @since Sat Jun 17 2023 15:52 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 24 2023 22:58 +0800
+ * @date Sun Jun 25 2023 11:49 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -168,5 +168,13 @@
      * @param u32_length - 数据长度
      */
     void v_std_min_insertion_sort(u8 *u8_p_data, u32 u32_length);
+
+    /**
+     * @brief 最大插入排序
+     *
+     * @param u8_p_data  - 数据
+     * @param u32_length - 数据长度
+     */
+    void v_std_max_insertion_sort(u8 *u8_p_data, u32 u32_length);
 
 #endif /* __STD_SORT_PUBLIC_H__ */
