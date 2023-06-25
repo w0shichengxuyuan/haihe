@@ -141,4 +141,12 @@
      */
     void v_std_swap_u16_value(u16 *u16_p_source, u16 *u16_p_destin);
 
+    /**
+     * @brief u32值转换
+     *
+     * @param[in] u32_p_source - 源头数据
+     * @param[in] u32_p_destin - 目的数据
+     */
+    void v_std_swap_u32_value(u32 *u32_p_source, u32 *u32_p_destin);
+
 #endif /* __STD_SWAP_VALUE_PUBLIC_H__ */
