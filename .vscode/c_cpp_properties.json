@@ -48,6 +48,7 @@
                 "${workspaceFolder}/source/required/standard/swap/bit/**",
                 "${workspaceFolder}/source/required/standard/swap/endian/**",
                 "${workspaceFolder}/source/required/standard/swap/type/**",
+                "${workspaceFolder}/source/required/standard/swap/value/**",
                 "${workspaceFolder}/source/required/standard/type/**",
                 "${workspaceFolder}/source/required/system/**"
             ],
