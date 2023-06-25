@@ -5,7 +5,7 @@
  * @since Sat Jun 17 2023 15:52 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 24 2023 22:58 +0800
+ * @date Sun Jun 25 2023 11:46 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -165,7 +165,7 @@ void v_std_min_insertion_sort(u8 *u8_p_data, u32 u32_length)
     {
         if (u8_p_data[i - 1] > u8_p_data[i])
         {
-            u32 j = 0;
+            u32 j = i - 1;
             u8  u8_tmp = 0;
 
             u8_tmp = u8_p_data[i];
