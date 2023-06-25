@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 12:35 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Fri Jun 16 2023 23:48 +0800
+ * @date Sun Jun 25 2023 12:23 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -48,6 +48,7 @@
         #include "std_swap_bit_public.h"
         #include "std_swap_endian_public.h"
         #include "std_swap_type_public.h"
+        #include "std_swap_value_public.h"
 
         /*system****************************************************************/
 
