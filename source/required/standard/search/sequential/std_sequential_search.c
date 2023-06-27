@@ -5,7 +5,7 @@
  * @since Tue Jun 27 2023 22:58 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Tue Jun 27 2023 23:24 +0800
+ * @date Tue Jun 27 2023 23:41 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -33,9 +33,9 @@
  */
 u16 u16_std_sequential_search(const u8 *u8_p_data, u16 u16_length, u8 u8_value)
 {
-    v_std_assert_pointer(u8_p_data);
-    v_std_assert_min_invalid(0, u16_length);
-    v_std_assert_max_valid(M_SEARCH_MAX_NUM, u16_length);
+    v_std_pointer_assert(u8_p_data);
+    v_std_min_invalid_assert(0, u16_length);
+    v_std_max_valid_assert(M_SEARCH_MAX_NUM, u16_length);
 
     u8 *u8_p_tmp = NULL;
 

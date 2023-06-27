@@ -5,7 +5,7 @@
  * @since Sun Jun 25 2023 11:59 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sun Jun 25 2023 12:22 +0800
+ * @date Tue Jun 27 2023 23:40 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -29,8 +29,8 @@
  */
 void v_std_swap_u8_value(u8 *u8_p_source, u8 *u8_p_destin)
 {
-    v_std_assert_pointer(u8_p_source);
-    v_std_assert_pointer(u8_p_destin);
+    v_std_pointer_assert(u8_p_source);
+    v_std_pointer_assert(u8_p_destin);
 
     u8 u8_tmp = 0;
 
@@ -47,8 +47,8 @@ void v_std_swap_u8_value(u8 *u8_p_source, u8 *u8_p_destin)
  */
 void v_std_swap_u16_value(u16 *u16_p_source, u16 *u16_p_destin)
 {
-    v_std_assert_pointer(u16_p_source);
-    v_std_assert_pointer(u16_p_destin);
+    v_std_pointer_assert(u16_p_source);
+    v_std_pointer_assert(u16_p_destin);
 
     u16 u16_tmp = 0;
 
@@ -65,8 +65,8 @@ void v_std_swap_u16_value(u16 *u16_p_source, u16 *u16_p_destin)
  */
 void v_std_swap_u32_value(u32 *u32_p_source, u32 *u32_p_destin)
 {
-    v_std_assert_pointer(u32_p_source);
-    v_std_assert_pointer(u32_p_destin);
+    v_std_pointer_assert(u32_p_source);
+    v_std_pointer_assert(u32_p_destin);
 
     u32 u32_tmp = 0;
 
@@ -83,8 +83,8 @@ void v_std_swap_u32_value(u32 *u32_p_source, u32 *u32_p_destin)
  */
 void v_std_swap_u64_value(u64 *u64_p_source, u64 *u64_p_destin)
 {
-    v_std_assert_pointer(u64_p_source);
-    v_std_assert_pointer(u64_p_destin);
+    v_std_pointer_assert(u64_p_source);
+    v_std_pointer_assert(u64_p_destin);
 
     u64 u64_tmp = 0;
 

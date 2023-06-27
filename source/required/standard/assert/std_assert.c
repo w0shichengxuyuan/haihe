@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 23:31 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Tue Jun 20 2023 23:06 +0800
+ * @date Tue Jun 27 2023 23:41 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -37,7 +37,7 @@ void v_std_assert(void)
  *
  * @param v_p_value - 指针
  */
-void v_std_assert_pointer(void *v_p_value)
+void v_std_pointer_assert(void *v_p_value)
 {
     if (NULL == v_p_value)
     {
@@ -45,7 +45,7 @@ void v_std_assert_pointer(void *v_p_value)
             for (;;);
         #endif /* __DEBUG__ */
     }
-} /* v_std_assert_pointer */
+} /* v_std_pointer_assert */
 
 /**
  * @brief 最小值有效断言
@@ -53,7 +53,7 @@ void v_std_assert_pointer(void *v_p_value)
  * @param u32_min   - 最小值
  * @param u32_value - 当前值
  */
-void v_std_assert_min_valid(u32 u32_min, u32 u32_value)
+void v_std_min_valid_assert(u32 u32_min, u32 u32_value)
 {
     if (u32_min > u32_value)
     {
@@ -61,7 +61,7 @@ void v_std_assert_min_valid(u32 u32_min, u32 u32_value)
             for (;;);
         #endif /* __DEBUG__ */
     }
-} /* v_std_assert_min_valid */
+} /* v_std_min_valid_assert */
 
 /**
  * @brief 最小值无效断言
@@ -69,7 +69,7 @@ void v_std_assert_min_valid(u32 u32_min, u32 u32_value)
  * @param u32_min   - 最小值
  * @param u32_value - 当前值
  */
-void v_std_assert_min_invalid(u32 u32_min, u32 u32_value)
+void v_std_min_invalid_assert(u32 u32_min, u32 u32_value)
 {
     if (u32_min >= u32_value)
     {
@@ -77,7 +77,7 @@ void v_std_assert_min_invalid(u32 u32_min, u32 u32_value)
             for (;;);
         #endif /* __DEBUG__ */
     }
-} /* v_std_assert_min_invalid */
+} /* v_std_min_invalid_assert */
 
 /**
  * @brief 最大值有效断言
@@ -85,7 +85,7 @@ void v_std_assert_min_invalid(u32 u32_min, u32 u32_value)
  * @param u32_max   - 最大值
  * @param u32_value - 当前值
  */
-void v_std_assert_max_valid(u32 u32_max, u32 u32_value)
+void v_std_max_valid_assert(u32 u32_max, u32 u32_value)
 {
     if (u32_max < u32_value)
     {
@@ -93,7 +93,7 @@ void v_std_assert_max_valid(u32 u32_max, u32 u32_value)
             for (;;);
         #endif /* __DEBUG__ */
     }
-} /* v_std_assert_max_valid */
+} /* v_std_max_valid_assert */
 
 /**
  * @brief 最大值无效断言
@@ -101,7 +101,7 @@ void v_std_assert_max_valid(u32 u32_max, u32 u32_value)
  * @param u32_max   - 最大值
  * @param u32_value - 当前值
  */
-void v_std_assert_max_invalid(u32 u32_max, u32 u32_value)
+void v_std_max_invalid_assert(u32 u32_max, u32 u32_value)
 {
     if (u32_max <= u32_value)
     {
@@ -109,4 +109,4 @@ void v_std_assert_max_invalid(u32 u32_max, u32 u32_value)
             for (;;);
         #endif /* __DEBUG__ */
     }
-} /* v_std_assert_max_invalid */
+} /* v_std_max_invalid_assert */

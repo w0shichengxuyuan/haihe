@@ -5,7 +5,7 @@
  * @since Sat Jun 17 2023 15:52 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sun Jun 25 2023 11:48 +0800
+ * @date Tue Jun 27 2023 23:41 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -30,9 +30,9 @@
  */
 void v_std_min_bubble_sort(u8 *u8_p_data, u32 u32_length)
 {
-    v_std_assert_pointer(u8_p_data);
-    v_std_assert_min_invalid(0, u32_length);
-    v_std_assert_max_valid(M_SORT_MAX_SIZE, u32_length);
+    v_std_pointer_assert(u8_p_data);
+    v_std_min_invalid_assert(0, u32_length);
+    v_std_max_valid_assert(M_SORT_MAX_SIZE, u32_length);
 
     for (u32 i = 0; u32_length - 1 > i; ++i)
     {
@@ -59,9 +59,9 @@ void v_std_min_bubble_sort(u8 *u8_p_data, u32 u32_length)
  */
 void v_std_max_bubble_sort(u8 *u8_p_data, u32 u32_length)
 {
-    v_std_assert_pointer(u8_p_data);
-    v_std_assert_min_invalid(0, u32_length);
-    v_std_assert_max_valid(M_SORT_MAX_SIZE, u32_length);
+    v_std_pointer_assert(u8_p_data);
+    v_std_min_invalid_assert(0, u32_length);
+    v_std_max_valid_assert(M_SORT_MAX_SIZE, u32_length);
 
     for (u32 i = 0; u32_length - 1 > i; ++i)
     {
@@ -88,9 +88,9 @@ void v_std_max_bubble_sort(u8 *u8_p_data, u32 u32_length)
  */
 void v_std_min_selection_sort(u8 *u8_p_data, u32 u32_length)
 {
-    v_std_assert_pointer(u8_p_data);
-    v_std_assert_min_invalid(0, u32_length);
-    v_std_assert_max_valid(M_SORT_MAX_SIZE, u32_length);
+    v_std_pointer_assert(u8_p_data);
+    v_std_min_invalid_assert(0, u32_length);
+    v_std_max_valid_assert(M_SORT_MAX_SIZE, u32_length);
 
     u32 u32_min = 0;
 
@@ -123,9 +123,9 @@ void v_std_min_selection_sort(u8 *u8_p_data, u32 u32_length)
  */
 void v_std_max_selection_sort(u8 *u8_p_data, u32 u32_length)
 {
-    v_std_assert_pointer(u8_p_data);
-    v_std_assert_min_invalid(0, u32_length);
-    v_std_assert_max_valid(M_SORT_MAX_SIZE, u32_length);
+    v_std_pointer_assert(u8_p_data);
+    v_std_min_invalid_assert(0, u32_length);
+    v_std_max_valid_assert(M_SORT_MAX_SIZE, u32_length);
 
     u32 u32_max = 0;
 
@@ -157,9 +157,9 @@ void v_std_max_selection_sort(u8 *u8_p_data, u32 u32_length)
  */
 void v_std_min_insertion_sort(u8 *u8_p_data, u32 u32_length)
 {
-    v_std_assert_pointer(u8_p_data);
-    v_std_assert_min_invalid(0, u32_length);
-    v_std_assert_max_valid(M_SORT_MAX_SIZE, u32_length);
+    v_std_pointer_assert(u8_p_data);
+    v_std_min_invalid_assert(0, u32_length);
+    v_std_max_valid_assert(M_SORT_MAX_SIZE, u32_length);
 
     for (u32 i = 1; u32_length > i; ++i)
     {
@@ -190,9 +190,9 @@ void v_std_min_insertion_sort(u8 *u8_p_data, u32 u32_length)
  */
 void v_std_max_insertion_sort(u8 *u8_p_data, u32 u32_length)
 {
-    v_std_assert_pointer(u8_p_data);
-    v_std_assert_min_invalid(0, u32_length);
-    v_std_assert_max_valid(M_SORT_MAX_SIZE, u32_length);
+    v_std_pointer_assert(u8_p_data);
+    v_std_min_invalid_assert(0, u32_length);
+    v_std_max_valid_assert(M_SORT_MAX_SIZE, u32_length);
 
     for (u32 i = 1; u32_length > i; ++i)
     {
