@@ -5,7 +5,7 @@
  * @since Tue Jun 27 2023 22:58 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Tue Jun 27 2023 23:00 +0800
+ * @date Tue Jun 27 2023 23:22 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -103,7 +103,7 @@
 
     /*macro*********************************************************************/
 
-
+    #define M_STD_SEQUENTIAL_SEARCH_FAIL    (0xffff)
 
     /*structure*****************************************************************/
 
@@ -125,6 +125,16 @@
 
     /*function******************************************************************/
 
-
+    /**
+     * @brief 顺序查找
+     *
+     * @param u8_p_data  - 数据
+     * @param u16_length - 数据长度
+     * @param u8_value   - 查找值
+     * @return [0, M_SEARCH_MAX_NUM-1]      - 成功值
+     *         M_STD_SEQUENTIAL_SEARCH_FAIL - 失败值
+     * @note https://www.cnblogs.com/CJT-blog/p/10475707.html
+     */
+    u16 u16_std_sequential_search(const u8 *u8_p_data, u16 u16_length, u8 u8_value);
 
 #endif /* __STD_SEQUENTIAL_SEARCH_PUBLIC_H__ */
