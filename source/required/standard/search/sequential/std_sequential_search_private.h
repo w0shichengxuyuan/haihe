@@ -1,11 +1,11 @@
 /**
- * @file std_search_public.h
- * @brief 标准查找公有文件
+ * @file std_sequential_search_private.h
+ * @brief 标准顺序查找私有文件
  * @author openc0de (openc0de@hotmail.com)
- * @since Sat Jun 17 2023 15:56 +0800
+ * @since Tue Jun 27 2023 22:58 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Tue Jun 27 2023 23:00 +0800
+ * @date Tue Jun 27 2023 22:59 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -14,12 +14,12 @@
  * -----------------------------------------------------------------------------
  *    version   |             date            |       by       |    comments
  * ------------ | --------------------------- | -------------- | ---------------
- *   0.00.001   | Sat Jun 17 2023 15:56 +0800 |    openc0de    | 初版
+ *   0.00.001   | Tue Jun 27 2023 22:58 +0800 |    openc0de    | 初版
  * -----------------------------------------------------------------------------
  */
 
-#ifndef __STD_SEARCH_PUBLIC_H__
-#define __STD_SEARCH_PUBLIC_H__
+#ifndef __STD_SEQUENTIAL_SEARCH_PRIVATE_H__
+#define __STD_SEQUENTIAL_SEARCH_PRIVATE_H__
 
 /*header files******************************************************************/
 
@@ -45,7 +45,7 @@
 
         /*standard**************************************************************/
 
-        #include "std_sequential_search_public.h"
+
 
         /*system****************************************************************/
 
@@ -123,8 +123,12 @@
 
 /*declarations******************************************************************/
 
+    /*variable******************************************************************/
+
+
+
     /*function******************************************************************/
 
 
 
-#endif /* __STD_SEARCH_PUBLIC_H__ */
+#endif /* __STD_SEQUENTIAL_SEARCH_PRIVATE_H__ */
