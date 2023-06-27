@@ -1,48 +1,51 @@
 # Summary
 
-Date : 2023-06-19 23:56:07
+Date : 2023-06-27 23:41:47
 
 Directory e:\\code\\haihe
 
-Total : 56 files,  1185 codes, 2824 comments, 3267 blanks, all 7276 lines
+Total : 62 files,  1396 codes, 3200 comments, 3648 blanks, all 8244 lines
 
 Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
 ## Languages
 | language | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| C | 44 | 1,136 | 2,299 | 2,357 | 5,792 |
-| C++ | 11 | 48 | 525 | 910 | 1,483 |
+| C | 50 | 1,320 | 2,570 | 2,712 | 6,602 |
+| C++ | 11 | 75 | 630 | 936 | 1,641 |
 | Markdown | 1 | 1 | 0 | 0 | 1 |
 
 ## Directories
 | path | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| . | 56 | 1,185 | 2,824 | 3,267 | 7,276 |
+| . | 62 | 1,396 | 3,200 | 3,648 | 8,244 |
 | . (Files) | 1 | 1 | 0 | 0 | 1 |
-| source | 55 | 1,184 | 2,824 | 3,267 | 7,275 |
-| source\\required | 55 | 1,184 | 2,824 | 3,267 | 7,275 |
+| source | 61 | 1,395 | 3,200 | 3,648 | 8,243 |
+| source\\required | 61 | 1,395 | 3,200 | 3,648 | 8,243 |
 | source\\required (Files) | 1 | 5 | 24 | 3 | 32 |
-| source\\required\\standard | 51 | 1,170 | 2,686 | 3,098 | 6,954 |
+| source\\required\\standard | 57 | 1,381 | 3,062 | 3,479 | 7,922 |
 | source\\required\\standard (Files) | 3 | 19 | 114 | 166 | 299 |
 | source\\required\\standard\\assert | 3 | 67 | 180 | 176 | 423 |
 | source\\required\\standard\\crypto | 3 | 8 | 114 | 167 | 289 |
-| source\\required\\standard\\delay | 9 | 187 | 550 | 555 | 1,292 |
+| source\\required\\standard\\delay | 9 | 186 | 550 | 556 | 1,292 |
 | source\\required\\standard\\delay (Files) | 3 | 10 | 114 | 165 | 289 |
 | source\\required\\standard\\delay\\hardware | 3 | 168 | 322 | 224 | 714 |
-| source\\required\\standard\\delay\\software | 3 | 9 | 114 | 166 | 289 |
+| source\\required\\standard\\delay\\software | 3 | 8 | 114 | 167 | 289 |
 | source\\required\\standard\\filter | 3 | 8 | 114 | 167 | 289 |
 | source\\required\\standard\\math | 3 | 163 | 194 | 183 | 540 |
-| source\\required\\standard\\search | 3 | 8 | 114 | 167 | 289 |
-| source\\required\\standard\\sort | 3 | 8 | 114 | 167 | 289 |
+| source\\required\\standard\\search | 6 | 35 | 248 | 334 | 617 |
+| source\\required\\standard\\search (Files) | 3 | 9 | 114 | 166 | 289 |
+| source\\required\\standard\\search\\sequential | 3 | 26 | 134 | 168 | 328 |
+| source\\required\\standard\\sort | 3 | 144 | 194 | 197 | 535 |
 | source\\required\\standard\\state | 3 | 13 | 114 | 166 | 293 |
 | source\\required\\standard\\string | 3 | 9 | 114 | 166 | 289 |
-| source\\required\\standard\\swap | 12 | 654 | 850 | 857 | 2,361 |
-| source\\required\\standard\\swap (Files) | 3 | 11 | 114 | 166 | 291 |
+| source\\required\\standard\\swap | 15 | 706 | 1,012 | 1,037 | 2,755 |
+| source\\required\\standard\\swap (Files) | 3 | 12 | 114 | 166 | 292 |
 | source\\required\\standard\\swap\\bit | 3 | 45 | 178 | 178 | 401 |
 | source\\required\\standard\\swap\\endian | 3 | 166 | 204 | 205 | 575 |
 | source\\required\\standard\\swap\\type | 3 | 432 | 354 | 308 | 1,094 |
-| source\\required\\standard\\type | 3 | 26 | 114 | 161 | 301 |
+| source\\required\\standard\\swap\\value | 3 | 51 | 162 | 180 | 393 |
+| source\\required\\standard\\type | 3 | 23 | 114 | 164 | 301 |
 | source\\required\\system | 3 | 9 | 114 | 166 | 289 |
 
 Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
