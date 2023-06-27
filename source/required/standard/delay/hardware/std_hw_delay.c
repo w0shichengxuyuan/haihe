@@ -1,11 +1,11 @@
 /**
- * @file std_delay_hw.c
+ * @file std_hw_delay.c
  * @brief 标准硬件延时文件
  * @author openc0de (openc0de@hotmail.com)
  * @since Thu Jun 15 2023 22:16 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jun 24 2023 22:21 +0800
+ * @date Tue Jun 27 2023 23:35 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -18,8 +18,8 @@
  * -----------------------------------------------------------------------------
  */
 
-#include "std_delay_hw_private.h"
-#include "std_delay_hw_public.h"
+#include "std_hw_delay_private.h"
+#include "std_hw_delay_public.h"
 
 /**
  * @brief 基本硬件延时
