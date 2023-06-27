@@ -1,10 +1,10 @@
 # Details
 
-Date : 2023-06-17 16:44:15
+Date : 2023-06-27 23:29:07
 
 Directory e:\\code\\haihe
 
-Total : 56 files,  1185 codes, 2824 comments, 3267 blanks, all 7276 lines
+Total : 62 files,  1397 codes, 3200 comments, 3647 blanks, all 8244 lines
 
 [Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
@@ -34,12 +34,15 @@ Total : 56 files,  1185 codes, 2824 comments, 3267 blanks, all 7276 lines
 | [source/required/standard/math/std_math.c](/source/required/standard/math/std_math.c) | C | 143 | 59 | 17 | 219 |
 | [source/required/standard/math/std_math_private.h](/source/required/standard/math/std_math_private.h) | C++ | 6 | 48 | 83 | 137 |
 | [source/required/standard/math/std_math_public.h](/source/required/standard/math/std_math_public.h) | C | 14 | 87 | 83 | 184 |
+| [source/required/standard/search/sequential/std_sequential_search.c](/source/required/standard/search/sequential/std_sequential_search.c) | C | 14 | 29 | 7 | 50 |
+| [source/required/standard/search/sequential/std_sequential_search_private.h](/source/required/standard/search/sequential/std_sequential_search_private.h) | C | 7 | 48 | 82 | 137 |
+| [source/required/standard/search/sequential/std_sequential_search_public.h](/source/required/standard/search/sequential/std_sequential_search_public.h) | C | 5 | 57 | 79 | 141 |
 | [source/required/standard/search/std_search.c](/source/required/standard/search/std_search.c) | C | 2 | 19 | 2 | 23 |
 | [source/required/standard/search/std_search_private.h](/source/required/standard/search/std_search_private.h) | C | 3 | 48 | 84 | 135 |
-| [source/required/standard/search/std_search_public.h](/source/required/standard/search/std_search_public.h) | C++ | 3 | 47 | 81 | 131 |
-| [source/required/standard/sort/std_sort.c](/source/required/standard/sort/std_sort.c) | C | 2 | 19 | 2 | 23 |
-| [source/required/standard/sort/std_sort_private.h](/source/required/standard/sort/std_sort_private.h) | C | 3 | 48 | 84 | 135 |
-| [source/required/standard/sort/std_sort_public.h](/source/required/standard/sort/std_sort_public.h) | C++ | 3 | 47 | 81 | 131 |
+| [source/required/standard/search/std_search_public.h](/source/required/standard/search/std_search_public.h) | C | 4 | 47 | 80 | 131 |
+| [source/required/standard/sort/std_sort.c](/source/required/standard/sort/std_sort.c) | C | 128 | 59 | 30 | 217 |
+| [source/required/standard/sort/std_sort_private.h](/source/required/standard/sort/std_sort_private.h) | C | 7 | 48 | 82 | 137 |
+| [source/required/standard/sort/std_sort_public.h](/source/required/standard/sort/std_sort_public.h) | C | 9 | 87 | 85 | 181 |
 | [source/required/standard/state/std_state.c](/source/required/standard/state/std_state.c) | C | 2 | 19 | 2 | 23 |
 | [source/required/standard/state/std_state_private.h](/source/required/standard/state/std_state_private.h) | C++ | 3 | 48 | 84 | 135 |
 | [source/required/standard/state/std_state_public.h](/source/required/standard/state/std_state_public.h) | C | 8 | 47 | 80 | 135 |
@@ -57,13 +60,16 @@ Total : 56 files,  1185 codes, 2824 comments, 3267 blanks, all 7276 lines
 | [source/required/standard/swap/endian/std_swap_endian_public.h](/source/required/standard/swap/endian/std_swap_endian_public.h) | C | 9 | 89 | 85 | 183 |
 | [source/required/standard/swap/std_swap.c](/source/required/standard/swap/std_swap.c) | C | 2 | 19 | 2 | 23 |
 | [source/required/standard/swap/std_swap_private.h](/source/required/standard/swap/std_swap_private.h) | C++ | 3 | 48 | 84 | 135 |
-| [source/required/standard/swap/std_swap_public.h](/source/required/standard/swap/std_swap_public.h) | C | 6 | 47 | 80 | 133 |
+| [source/required/standard/swap/std_swap_public.h](/source/required/standard/swap/std_swap_public.h) | C | 7 | 47 | 80 | 134 |
 | [source/required/standard/swap/type/std_swap_type.c](/source/required/standard/swap/type/std_swap_type.c) | C | 399 | 139 | 134 | 672 |
 | [source/required/standard/swap/type/std_swap_type_private.h](/source/required/standard/swap/type/std_swap_type_private.h) | C++ | 6 | 48 | 83 | 137 |
 | [source/required/standard/swap/type/std_swap_type_public.h](/source/required/standard/swap/type/std_swap_type_public.h) | C | 27 | 167 | 91 | 285 |
+| [source/required/standard/swap/value/std_swap_value.c](/source/required/standard/swap/value/std_swap_value.c) | C | 38 | 43 | 14 | 95 |
+| [source/required/standard/swap/value/std_swap_value_private.h](/source/required/standard/swap/value/std_swap_value_private.h) | C++ | 6 | 48 | 83 | 137 |
+| [source/required/standard/swap/value/std_swap_value_public.h](/source/required/standard/swap/value/std_swap_value_public.h) | C | 7 | 71 | 83 | 161 |
 | [source/required/standard/type/std_type.c](/source/required/standard/type/std_type.c) | C | 2 | 19 | 2 | 23 |
 | [source/required/standard/type/std_type_private.h](/source/required/standard/type/std_type_private.h) | C++ | 3 | 48 | 84 | 135 |
-| [source/required/standard/type/std_type_public.h](/source/required/standard/type/std_type_public.h) | C | 21 | 47 | 75 | 143 |
+| [source/required/standard/type/std_type_public.h](/source/required/standard/type/std_type_public.h) | C | 18 | 47 | 78 | 143 |
 | [source/required/system/sys.c](/source/required/system/sys.c) | C | 2 | 19 | 2 | 23 |
 | [source/required/system/sys_private.h](/source/required/system/sys_private.h) | C | 3 | 48 | 84 | 135 |
 | [source/required/system/sys_public.h](/source/required/system/sys_public.h) | C | 4 | 47 | 80 | 131 |
