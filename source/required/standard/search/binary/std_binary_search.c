@@ -5,7 +5,7 @@
  * @since Wed Jun 28 2023 22:52 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Wed Jun 28 2023 23:09 +0800
+ * @date Wed Jun 28 2023 23:14 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -42,30 +42,30 @@ u16 u16_std_binary_search(const u8 *u8_p_data, u16 u16_length, u8 u8_value)
     v_std_max_valid_assert(M_SEARCH_MAX_NUM, u16_length);
 
     u8 *u8_p_tmp = NULL;
-    u16 l = 0, /* low */
-        m = 0, /* middle */
-        h = 0; /* high */
+    u16 u16_low  = 0,
+        u16_mid  = 0,
+        u16_high = 0;
 
     u8_p_tmp = u8_p_data;
-    h = u16_length - 1;
+    u16_high = u16_length - 1;
 
-    while (h >= l)
+    while (u16_high >= u16_low)
     {
-        m = l + ((h - l) >> 1);
+        u16_mid = u16_low + ((u16_high - u16_low) >> 1);
 
-        if (u8_value > *(u8_p_data + m))
+        if (u8_value > *(u8_p_data + u16_mid))
         {
-            l = m + 1;
+            u16_low = u16_mid + 1;
             continue;
         }
 
-        if (u8_value < *(u8_p_data + m))
+        if (u8_value < *(u8_p_data + u16_mid))
         {
-            h = m - 1;
+            u16_high = u16_mid - 1;
             continue;
         }
 
-        return (m);
+        return (u16_mid);
     }
 
     return (M_STD_BINARY_SEARCH_FAIL);
