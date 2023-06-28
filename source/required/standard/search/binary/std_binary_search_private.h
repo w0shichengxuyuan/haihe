@@ -5,7 +5,7 @@
  * @since Wed Jun 28 2023 22:52 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Wed Jun 28 2023 22:54 +0800
+ * @date Wed Jun 28 2023 22:57 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -45,7 +45,9 @@
 
         /*standard**************************************************************/
 
-
+        #include "std_assert_public.h"
+        #include "std_string_public.h"
+        #include "std_type_public.h"
 
         /*system****************************************************************/
 
@@ -103,7 +105,7 @@
 
     /*macro*********************************************************************/
 
-
+    #define M_SEARCH_MAX_NUM    (512)
 
     /*structure*****************************************************************/
 
