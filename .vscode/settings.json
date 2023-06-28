@@ -31,6 +31,7 @@
         "std_swap_value_public.h": "c",
         "std_sequential_search_private.h": "c",
         "std_search_public.h": "c",
-        "std_sequential_search_public.h": "c"
+        "std_sequential_search_public.h": "c",
+        "std_binary_search_private.h": "c"
     }
 }

@@ -41,6 +41,7 @@
                 "${workspaceFolder}/source/required/standard/filter/**",
                 "${workspaceFolder}/source/required/standard/math/**",
                 "${workspaceFolder}/source/required/standard/search/**",
+                "${workspaceFolder}/source/required/standard/search/binary/**",
                 "${workspaceFolder}/source/required/standard/search/sequential/**",
                 "${workspaceFolder}/source/required/standard/sort/**",
                 "${workspaceFolder}/source/required/standard/state/**",
