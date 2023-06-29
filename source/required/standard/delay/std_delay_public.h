@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 12:46 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Tue Jun 27 2023 23:34 +0800
+ * @date Thu Jun 29 2023 23:28 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -45,7 +45,7 @@
 
         /*standard**************************************************************/
 
-        #include "std_delay_hw_public.h"
+        #include "std_hw_delay_public.h"
         #include "std_sw_delay_public.h"
 
         /*system****************************************************************/

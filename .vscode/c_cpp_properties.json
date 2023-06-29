@@ -52,6 +52,7 @@
                 "${workspaceFolder}/source/required/standard/swap/type/**",
                 "${workspaceFolder}/source/required/standard/swap/value/**",
                 "${workspaceFolder}/source/required/standard/type/**",
+
                 "${workspaceFolder}/source/required/system/**"
             ],
 
@@ -63,8 +64,11 @@
                 "__RELEASE__",
                 "__TEST__",
                 "__C99__"
-            ]
+            ],
+
+            "cStandard": "c99"
         }
     ],
+
     "version": 4
 }
