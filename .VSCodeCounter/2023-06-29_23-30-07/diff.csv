@@ -1,8 +1,0 @@
-"filename", "language", "C", "C++", "comment", "blank", "total"
-"e:\code\haihe\source\required\standard\search\binary\std_binary_search.c", "C", 30, 0, 33, 10, 73
-"e:\code\haihe\source\required\standard\search\binary\std_binary_search_private.h", "C", 7, 0, 48, 82, 137
-"e:\code\haihe\source\required\standard\search\binary\std_binary_search_public.h", "C++", 0, 5, 61, 79, 145
-"e:\code\haihe\source\required\standard\search\sequential\std_sequential_search.c", "C", 0, 0, 4, 0, 4
-"e:\code\haihe\source\required\standard\search\sequential\std_sequential_search_public.h", "C", 0, 0, 4, 0, 4
-"e:\code\haihe\source\required\standard\search\std_search_public.h", "C", 1, 0, 0, 0, 1
-"Total", "-", 38, 5, 150, 171, 364
