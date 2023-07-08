@@ -27,7 +27,7 @@
  * @param u32_augend - 被加数
  * @param u32_addend - 加数
  * @return [0x00000000, 0xffffffff]
- * @note https://zhuanlan.zhihu.com/p/136367900
+ * @ref https://zhuanlan.zhihu.com/p/136367900
  */
 u32 u32_std_math_addition(u32 u32_augend, u32 u32_addend)
 {
@@ -59,7 +59,7 @@ u32 u32_std_math_addition(u32 u32_augend, u32 u32_addend)
  * @param u32_minuend    - 被减数
  * @param u32_subtrahend - 减数
  * @return [0x00000000, 0xffffffff]
- * @note https://zhuanlan.zhihu.com/p/136367900
+ * @ref https://zhuanlan.zhihu.com/p/136367900
  */
 u32 u32_std_math_subtraction(u32 u32_minuend, u32 u32_subtrahend)
 {
@@ -95,7 +95,7 @@ u32 u32_std_math_subtraction(u32 u32_minuend, u32 u32_subtrahend)
  * @param u32_multiplier   - 乘数
  * @param u32_multiplicand - 被乘数
  * @return [0x00000000, 0xffffffff]
- * @note https://zhuanlan.zhihu.com/p/136367900
+ * @ref https://zhuanlan.zhihu.com/p/136367900
  */
 u32 u32_std_math_multiplication(u32 u32_multiplicand, u32 u32_multiplier)
 {
@@ -135,7 +135,7 @@ u32 u32_std_math_multiplication(u32 u32_multiplicand, u32 u32_multiplier)
  * @param u32_dividend - 被除数
  * @param u32_divisor  - 除数
  * @return [0x00000000, 0xffffffff]
- * @note https://zhuanlan.zhihu.com/p/136367900
+ * @ref https://zhuanlan.zhihu.com/p/136367900
  */
 u32 u32_std_math_division_quotient(u32 u32_dividend, u32 u32_divisor)
 {
@@ -179,7 +179,7 @@ u32 u32_std_math_division_quotient(u32 u32_dividend, u32 u32_divisor)
  * @param u32_dividend - 被除数
  * @param u32_divisor  - 除数
  * @return [0x00000000, 0xffffffff]
- * @note https://zhuanlan.zhihu.com/p/136367900
+ * @ref https://zhuanlan.zhihu.com/p/136367900
  */
 u32 u32_std_math_division_remainder(u32 u32_dividend, u32 u32_divisor)
 {
