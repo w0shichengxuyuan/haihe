@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 23:38 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jul 22 2023 00:08 +0800
+ * @date Sat Jul 22 2023 00:40 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -149,5 +149,30 @@
      *         FAILURE  - 失败
      */
     state_e e_std_string_free(void **v_p2_data);
+
+    /**
+     * @brief 内存初始化
+     *
+     * @param v_p_data - 数据地址
+     * @param u16_size - 初始化大小
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
+     * @ref https://en.cppreference.com/w/c/string/byte/memset
+     *      https://zh.cppreference.com/w/c/string/byte/memset
+     */
+    state_e e_std_string_memset(void *v_p_data, u16 u16_size);
+
+    /**
+     * @brief 内存初始化(扩展)
+     *
+     * @param v_p_data - 数据地址
+     * @param u16_size - 初始化大小
+     * @param u8_init  - 初始值
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
+     * @ref https://en.cppreference.com/w/c/string/byte/memset
+     *      https://zh.cppreference.com/w/c/string/byte/memset
+     */
+    state_e e_std_string_memset_extension(void *v_p_data, u16 u16_size, u8 u8_init);
 
 #endif /* __STD_STRING_PUBLIC_H__ */
