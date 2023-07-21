@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 23:38 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jul 22 2023 00:39 +0800
+ * @date Sat Jul 22 2023 00:56 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -30,6 +30,7 @@
  * @param u16_size  - 申请大小
  * @return SUCCESS  - 成功
  *         FAILURE  - 失败
+ * @ref https://en.cppreference.com/w/c/memory/malloc
  */
 state_e e_std_string_malloc(void **v_p2_data, u16 u16_size)
 {
@@ -52,11 +53,58 @@ state_e e_std_string_malloc(void **v_p2_data, u16 u16_size)
         return (FAILURE);
     }
 
-    memset(p, 0, u16_size);
+    if (SUCCESS != e_std_string_memset(p, 0))
+    {
+        (void)e_std_string_free(&p);
+        return (FAILURE);
+    }
     *v_p2_data = (void *)p;
 
     return (SUCCESS);
 } /* e_std_string_malloc */
+
+/**
+ * @brief 申请堆内存(扩展)
+ *
+ * @param v_p2_data - 指针本身的地址
+ *       *v_p2_data - 指针指向的地址
+ *      **v_p2_data - 指针指向的地址上的值
+ * @param u16_size  - 申请大小
+ * @param u8_init  - 初始值
+ * @return SUCCESS  - 成功
+ *         FAILURE  - 失败
+ * @ref https://en.cppreference.com/w/c/memory/malloc
+ */
+state_e e_std_string_malloc_extension(void **v_p2_data, u16 u16_size, u8 u8_init)
+{
+    v_std_pointer_assert(v_p2_data);
+    v_std_pointer_assert(*v_p2_data);
+    v_std_min_invalid_assert(E_MIN_SIZE, u16_size);
+    v_std_max_valid_assert(E_MAX_SIZE, u16_size);
+
+    u8 *p = NULL;
+
+    #ifdef __FREERTOS__
+        p = vPortMalloc(u16_size);
+    #else
+        p = malloc(u16_size);
+    #endif
+
+    if (NULL == p)
+    {
+        *v_p2_data = NULL;
+        return (FAILURE);
+    }
+
+    if (SUCCESS != e_std_string_memset_extension(p, u16_size, u8_init))
+    {
+        (void)e_std_string_free(&p);
+        return (FAILURE);
+    }
+    *v_p2_data = (void *)p;
+
+    return (SUCCESS);
+} /* e_std_string_malloc_extension */
 
 /**
  * @brief 释放堆内存
@@ -66,6 +114,7 @@ state_e e_std_string_malloc(void **v_p2_data, u16 u16_size)
  *      **v_p2_data - 指针指向的地址上的值
  * @return SUCCESS  - 成功
  *         FAILURE  - 失败
+ * @ref https://en.cppreference.com/w/c/memory/free
  */
 state_e e_std_string_free(void **v_p2_data)
 {
