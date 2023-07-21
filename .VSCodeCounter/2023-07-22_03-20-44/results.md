@@ -1,29 +1,36 @@
 # Summary
 
-Date : 2023-07-02 23:20:58
+Date : 2023-07-22 03:20:44
 
 Directory e:\\code\\haihe
 
-Total : 65 files,  1439 codes, 3350 comments, 3819 blanks, all 8608 lines
+Total : 282 files,  32248 codes, 4203 comments, 5035 blanks, all 41486 lines
 
 Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
 ## Languages
 | language | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| C | 52 | 1,358 | 2,659 | 2,804 | 6,821 |
-| C++ | 12 | 80 | 691 | 1,015 | 1,786 |
+| HTML | 205 | 29,029 | 615 | 875 | 30,519 |
+| C | 53 | 1,480 | 2,837 | 2,922 | 7,239 |
+| CSS | 2 | 1,436 | 25 | 288 | 1,749 |
+| JavaScript | 3 | 122 | 83 | 12 | 217 |
+| XML | 7 | 103 | 0 | 7 | 110 |
+| C++ | 11 | 77 | 643 | 931 | 1,651 |
 | Markdown | 1 | 1 | 0 | 0 | 1 |
 
 ## Directories
 | path | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| . | 65 | 1,439 | 3,350 | 3,819 | 8,608 |
+| . | 282 | 32,248 | 4,203 | 5,035 | 41,486 |
 | . (Files) | 1 | 1 | 0 | 0 | 1 |
-| source | 64 | 1,438 | 3,350 | 3,819 | 8,607 |
-| source\\required | 64 | 1,438 | 3,350 | 3,819 | 8,607 |
+| documentation | 217 | 30,690 | 723 | 1,182 | 32,595 |
+| documentation\\doxygen | 217 | 30,690 | 723 | 1,182 | 32,595 |
+| documentation\\doxygen\\html | 217 | 30,690 | 723 | 1,182 | 32,595 |
+| source | 64 | 1,557 | 3,480 | 3,853 | 8,890 |
+| source\\required | 64 | 1,557 | 3,480 | 3,853 | 8,890 |
 | source\\required (Files) | 1 | 5 | 24 | 3 | 32 |
-| source\\required\\standard | 60 | 1,424 | 3,212 | 3,650 | 8,286 |
+| source\\required\\standard | 60 | 1,543 | 3,342 | 3,684 | 8,569 |
 | source\\required\\standard (Files) | 3 | 19 | 114 | 166 | 299 |
 | source\\required\\standard\\assert | 3 | 67 | 180 | 176 | 423 |
 | source\\required\\standard\\crypto | 3 | 8 | 114 | 167 | 289 |
@@ -39,7 +46,7 @@ Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-
 | source\\required\\standard\\search\\sequential | 3 | 26 | 142 | 168 | 336 |
 | source\\required\\standard\\sort | 3 | 144 | 194 | 197 | 535 |
 | source\\required\\standard\\state | 3 | 13 | 114 | 166 | 293 |
-| source\\required\\standard\\string | 3 | 9 | 114 | 166 | 289 |
+| source\\required\\standard\\string | 3 | 128 | 244 | 200 | 572 |
 | source\\required\\standard\\swap | 15 | 706 | 1,012 | 1,037 | 2,755 |
 | source\\required\\standard\\swap (Files) | 3 | 12 | 114 | 166 | 292 |
 | source\\required\\standard\\swap\\bit | 3 | 45 | 178 | 178 | 401 |
