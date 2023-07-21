@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 23:38 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jul 22 2023 01:17 +0800
+ * @date Sat Jul 22 2023 01:22 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -130,10 +130,10 @@
     /**
      * @brief 申请堆内存
      *
-     * @param[in] v_p2_data - 指针本身的地址
-     *           *v_p2_data - 指针指向的地址
-     *          **v_p2_data - 指针指向的地址上的值
-     * @param[in] u16_size  - 申请大小
+     * @param[in, out] v_p2_data - 指针本身的地址
+     *                *v_p2_data - 指针指向的地址
+     *               **v_p2_data - 指针指向的地址上的值
+     * @param[in]      u16_size  - 申请大小
      * @return SUCCESS  - 成功
      *         FAILURE  - 失败
      * @ref https://en.cppreference.com/w/c/memory/malloc
@@ -143,11 +143,11 @@
     /**
      * @brief 申请堆内存(扩展)
      *
-     * @param[in] v_p2_data - 指针本身的地址
-     *           *v_p2_data - 指针指向的地址
-     *          **v_p2_data - 指针指向的地址上的值
-     * @param[in] u16_size  - 申请大小
-     * @param[in] u8_init   - 初始值
+     * @param[in, out] v_p2_data - 指针本身的地址
+     *                *v_p2_data - 指针指向的地址
+     *               **v_p2_data - 指针指向的地址上的值
+     * @param[in]      u16_size  - 申请大小
+     * @param[in]      u8_init   - 初始值
      * @return SUCCESS  - 成功
      *         FAILURE  - 失败
      * @ref https://en.cppreference.com/w/c/memory/malloc
@@ -157,9 +157,9 @@
     /**
      * @brief 释放堆内存
      *
-     * @param v_p2_data - 指针本身的地址
-     *       *v_p2_data - 指针指向的地址
-     *      **v_p2_data - 指针指向的地址上的值
+     * @param[in, out] v_p2_data - 指针本身的地址
+     *                *v_p2_data - 指针指向的地址
+     *               **v_p2_data - 指针指向的地址上的值
      * @return SUCCESS  - 成功
      *         FAILURE  - 失败
      * @ref https://en.cppreference.com/w/c/memory/free
@@ -169,9 +169,9 @@
     /**
      * @brief 内存拷贝
      *
-     * @param[out] v_p_destination - 目的地址
-     * @param[in] v_p_source       - 源地址
-     * @param[in] u16_size         - 拷贝大小
+     * @param[in, out] v_p_destination - 目的地址
+     * @param[in]      v_p_source      - 源地址
+     * @param[in]      u16_size        - 拷贝大小
      * @return SUCCESS  - 成功
      *         FAILURE  - 失败
      * @ref https://en.cppreference.com/w/c/string/byte/memcpy
@@ -182,8 +182,8 @@
     /**
      * @brief 内存初始化
      *
-     * @param[in] v_p_data - 数据地址
-     * @param[in] u16_size - 初始化大小
+     * @param[in, out] v_p_data - 数据地址
+     * @param[in]      u16_size - 初始化大小
      * @return SUCCESS - 成功
      *         FAILURE - 失败
      * @ref https://en.cppreference.com/w/c/string/byte/memset
@@ -192,11 +192,11 @@
     state_e e_std_string_memset(void *v_p_data, u16 u16_size);
 
     /**
-     * @brief 内存初始化
+     * @brief 内存初始化(扩展)
      *
-     * @param[in] v_p_data - 数据地址
-     * @param[in] u16_size - 初始化大小
-     * @param[in] u8_init  - 初始值
+     * @param[in, out] v_p_data - 数据地址
+     * @param[in]      u16_size - 初始化大小
+     * @param[in]      u8_init  - 初始值
      * @return SUCCESS - 成功
      *         FAILURE - 失败
      * @ref https://en.cppreference.com/w/c/string/byte/memset
