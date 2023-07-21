@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 23:38 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Fri Jun 16 2023 23:39 +0800
+ * @date Fri Jul 21 2023 23:58 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -111,7 +111,11 @@
 
     /*enumeration***************************************************************/
 
-
+    typedef enum size_e
+    {
+        E_MIN_SIZE = 0,
+        E_MAX_SIZE = 300,
+    } size_e;
 
     /*union*********************************************************************/
 
