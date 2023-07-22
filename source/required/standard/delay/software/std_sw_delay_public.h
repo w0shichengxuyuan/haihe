@@ -5,7 +5,7 @@
  * @since Thu Jun 15 2023 22:12 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Tue Jun 27 2023 23:33 +0800
+ * @date Sat Jul 22 2023 17:55 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -125,6 +125,10 @@
 
     /*function******************************************************************/
 
-
+    /**
+     * @brief 基本软件延时
+     *
+     */
+    void v_std_sw_delay_do_nothing(void);
 
 #endif /* __STD_SW_DELAY_PUBLIC_H__ */
