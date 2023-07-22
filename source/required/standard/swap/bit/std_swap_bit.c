@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 21:14 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Tue Jun 13 2023 21:58 +0800
+ * @date Sat Jul 22 2023 18:44 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -24,17 +24,24 @@
 /**
  * @brief 位值取1
  *
- * @param[in] u32_p_data - 数据
- * @param[in] u8_bit     - 操作位
- * @return SUCCESS
- *         FAILURE
+ * @param[in, out] v_p_data - 数据
+ * @param[in]      u8_bit   - 操作位
+ * @return SUCCESS - 成功
+ *         FAILURE - 失败
  */
-state_e e_std_swap_bit_set(u32 *u32_p_data, u8 u8_bit)
+state_e e_std_swap_bit_set(void *v_p_data, u8 u8_bit)
 {
-    if (NULL == u32_p_data)
+    if (NULL == v_p_data)
         return (FAILURE);
 
-    *u32_p_data |= (1 << u8_bit);
+    if (M_MAX_BIT_NUMBER < u8_bit)
+        return (FAILURE);
+
+    #ifdef __32BIT__
+        *(u32 *)v_p_data |= (1 << u8_bit);
+    #else
+        *(u64 *)v_p_data |= (1 << u8_bit);
+    #endif
 
     return (SUCCESS);
 } /* e_std_swap_bit_set */
@@ -42,17 +49,24 @@ state_e e_std_swap_bit_set(u32 *u32_p_data, u8 u8_bit)
 /**
  * @brief 位值取0
  *
- * @param[in] u32_p_data - 数据
- * @param[in] u8_bit     - 操作位
- * @return SUCCESS
- *         FAILURE
+ * @param[in, out] v_p_data - 数据
+ * @param[in]      u8_bit   - 操作位
+ * @return SUCCESS - 成功
+ *         FAILURE - 失败
  */
-state_e e_std_swap_bit_clear(u32 *u32_p_data, u8 u8_bit)
+state_e e_std_swap_bit_clear(void *v_p_data, u8 u8_bit)
 {
-    if (NULL == u32_p_data)
+    if (NULL == v_p_data)
         return (FAILURE);
 
-    *u32_p_data &= ~(1 << u8_bit);
+    if (M_MAX_BIT_NUMBER < u8_bit)
+        return (FAILURE);
+
+    #ifdef __32BIT__
+        *(u32 *)v_p_data &= ~(1 << u8_bit);
+    #else
+        *(u64 *)v_p_data &= ~(1 << u8_bit);
+    #endif
 
     return (SUCCESS);
 } /* e_std_swap_bit_clear */
@@ -60,17 +74,24 @@ state_e e_std_swap_bit_clear(u32 *u32_p_data, u8 u8_bit)
 /**
  * @brief 位值取反
  *
- * @param[in] u32_p_data - 数据
- * @param[in] u8_bit     - 操作位
- * @return SUCCESS
- *         FAILURE
+ * @param[in, out] v_p_data - 数据
+ * @param[in]      u8_bit   - 操作位
+ * @return SUCCESS - 成功
+ *         FAILURE - 失败
  */
-state_e e_std_swap_bit_reverse(u32 *u32_p_data, u8 u8_bit)
+state_e e_std_swap_bit_reverse(void *v_p_data, u8 u8_bit)
 {
-    if (NULL == u32_p_data)
+    if (NULL == v_p_data)
         return (FAILURE);
 
-    *u32_p_data ^= (1 << u8_bit);
+    if (M_MAX_BIT_NUMBER < u8_bit)
+        return (FAILURE);
+
+    #ifdef __32BIT__
+        *(u32 *)v_p_data ^= (1 << u8_bit);
+    #else
+        *(u64 *)v_p_data ^= (1 << u8_bit);
+    #endif
 
     return (SUCCESS);
 } /* e_std_swap_bit_reverse */
@@ -78,16 +99,20 @@ state_e e_std_swap_bit_reverse(u32 *u32_p_data, u8 u8_bit)
 /**
  * @brief 位值获取
  *
- * @param[in] u32_data - 数据
+ * @param[in] v_p_data - 数据
  * @param[in] u8_bit   - 操作位
- * @return M_STD_SWAP_BIT_VAL_ZERO
- *         M_STD_SWAP_BIT_VAL_ONE
+ * @return E_STD_SWAP_BIT_VALUE_ZERO    - 值0
+ *         E_STD_SWAP_BIT_VALUE_ONE     - 值1
+ *         E_STD_SWAP_BIT_VALUE_INVALID - 无效
  */
-std_swap_bit_val_b b_std_swap_bit_get(u32 u32_data, u8 u8_bit)
+std_swap_bit_value_e b_std_swap_bit_get(const void *v_p_data, u8 u8_bit)
 {
-    std_swap_bit_val_b b_val = M_STD_SWAP_BIT_VAL_ZERO;
+    if (M_MAX_BIT_NUMBER < u8_bit)
+        return (E_STD_SWAP_BIT_VALUE_INVALID);
 
-    b_val = (u32_data >> u8_bit) & 1;
+    std_swap_bit_value_e b_val = E_STD_SWAP_BIT_VALUE_ZERO;
+
+    b_val = ((*(u8 *)v_p_data) >> u8_bit) & 1;
 
     return (b_val);
 } /* b_std_swap_bit_get */

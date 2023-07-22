@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 21:14 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Fri Jun 16 2023 23:47 +0800
+ * @date Sat Jul 22 2023 18:32 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -105,7 +105,13 @@
 
     /*macro*********************************************************************/
 
-
+    #ifdef __32BIT__
+        #define M_MAX_BIT_NUMBER    (31)
+    #elif __64BIT__
+        #define M_MAX_BIT_NUMBER    (63)
+    #else
+        #define M_MAX_BIT_NUMBER     (0)
+    #endif
 
     /*structure*****************************************************************/
 
