@@ -5,7 +5,7 @@
  * @since Thu Jun 15 2023 22:16 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Tue Jun 27 2023 23:35 +0800
+ * @date Sat Jul 22 2023 17:56 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -20,29 +20,6 @@
 
 #include "std_hw_delay_private.h"
 #include "std_hw_delay_public.h"
-
-/**
- * @brief 基本硬件延时
- *
- */
-void v_std_hw_delay_do_nothing(void)
-{
-    #if 0
-        NOP();
-    #endif
-
-    #if 0
-        __NOP();
-    #endif
-
-    #if 0
-        nop();
-    #endif
-
-    #if 0
-        __nop();
-    #endif
-} /* v_std_hw_delay_do_nothing */
 
 /**
  * @brief 微秒硬件延时

@@ -5,7 +5,7 @@
  * @since Thu Jun 15 2023 22:16 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Tue Jun 27 2023 23:36 +0800
+ * @date Sat Jul 22 2023 17:56 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -124,12 +124,6 @@
 /*declarations******************************************************************/
 
     /*function******************************************************************/
-
-    /**
-     * @brief 基本硬件延时
-     *
-     */
-    void v_std_hw_delay_do_nothing(void);
 
     /**
      * @brief 微秒硬件延时
