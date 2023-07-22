@@ -33,6 +33,8 @@
         "std_search_public.h": "c",
         "std_sequential_search_public.h": "c",
         "std_binary_search_private.h": "c",
-        "std_string_private.h": "c"
+        "std_string_private.h": "c",
+        "std_hw_delay_public.h": "c",
+        "std_hw_delay_private.h": "c"
     }
 }
