@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 21:57 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jul 22 2023 23:48 +0800
+ * @date Sat Jul 22 2023 23:59 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -111,16 +111,7 @@
 
     /*enumeration***************************************************************/
 
-    /**
-     * @brief 标准类型最大值
-     *
-     */
-    typedef enum std_type_max_value_e
-    {
-        M_STD_U8_MAX_VALUE  = 0xff,       /**> u8最大值  */
-        M_STD_U16_MAX_VALUE = 0xffff,     /**> u16最大值 */
-        M_STD_U32_MAX_VALUE = 0xffffffff, /**> u32最大值 */
-    } std_type_max_value_e;
+
 
     /*union*********************************************************************/
 
