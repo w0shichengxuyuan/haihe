@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 21:14 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jul 22 2023 18:44 +0800
+ * @date Sat Jul 22 2023 18:47 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -112,7 +112,11 @@ std_swap_bit_value_e b_std_swap_bit_get(const void *v_p_data, u8 u8_bit)
 
     std_swap_bit_value_e b_val = E_STD_SWAP_BIT_VALUE_ZERO;
 
-    b_val = ((*(u8 *)v_p_data) >> u8_bit) & 1;
+    #ifdef __32BIT__
+        b_val = ((*(u32 *)v_p_data) >> u8_bit) & 1;
+    #else
+        b_val = ((*(u64 *)v_p_data) >> u8_bit) & 1;
+    #endif
 
     return (b_val);
 } /* b_std_swap_bit_get */
