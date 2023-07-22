@@ -5,7 +5,7 @@
  * @since Tue Jun 27 2023 22:58 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Wed Jun 28 2023 22:50 +0800
+ * @date Sat Jul 22 2023 18:21 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -29,7 +29,9 @@
  * @param u8_value   - 查找值
  * @return [0, M_SEARCH_MAX_NUM-1]      - 成功值
  *         M_STD_SEQUENTIAL_SEARCH_FAIL - 失败值
+ *
  * @ref https://www.cnblogs.com/CJT-blog/p/10475707.html
+ *
  * @note 从表中第一个（或最后一个）记录开始，逐个进行记录的关键字和给定值比较。
  *       如果某个记录的关键字和给定值相等，则查找成功，找到所查的记录。
  *       如果直到最后一个（或第一个）记录，其关键字和给定值比较都不等时，
