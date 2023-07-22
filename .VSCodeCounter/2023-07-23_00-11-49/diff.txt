@@ -1,49 +1,47 @@
-Date : 2023-07-12 22:10:42
+Date : 2023-07-23 00:11:49
 Directory : e:\code\haihe
-Total : 65 files,  1439 codes, 3350 comments, 3819 blanks, all 8608 lines
+Total : 64 files,  1588 codes, 3532 comments, 3856 blanks, all 8976 lines
 
 Languages
 +----------+------------+------------+------------+------------+------------+
 | language | files      | code       | comment    | blank      | total      |
 +----------+------------+------------+------------+------------+------------+
-| C        |         52 |      1,358 |      2,659 |      2,804 |      6,821 |
-| C++      |         12 |         80 |        691 |      1,015 |      1,786 |
-| Markdown |          1 |          1 |          0 |          0 |          1 |
+| C        |         56 |      1,555 |      3,130 |      3,195 |      7,880 |
+| C++      |          8 |         33 |        402 |        661 |      1,096 |
 +----------+------------+------------+------------+------------+------------+
 
 Directories
 +------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
 | path                                                                                     | files      | code       | comment    | blank      | total      |
 +------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
-| .                                                                                        |         65 |      1,439 |      3,350 |      3,819 |      8,608 |
-| . (Files)                                                                                |          1 |          1 |          0 |          0 |          1 |
-| source                                                                                   |         64 |      1,438 |      3,350 |      3,819 |      8,607 |
-| source\required                                                                          |         64 |      1,438 |      3,350 |      3,819 |      8,607 |
+| .                                                                                        |         64 |      1,588 |      3,532 |      3,856 |      8,976 |
+| source                                                                                   |         64 |      1,588 |      3,532 |      3,856 |      8,976 |
+| source\required                                                                          |         64 |      1,588 |      3,532 |      3,856 |      8,976 |
 | source\required (Files)                                                                  |          1 |          5 |         24 |          3 |         32 |
-| source\required\standard                                                                 |         60 |      1,424 |      3,212 |      3,650 |      8,286 |
+| source\required\standard                                                                 |         60 |      1,574 |      3,394 |      3,687 |      8,655 |
 | source\required\standard (Files)                                                         |          3 |         19 |        114 |        166 |        299 |
 | source\required\standard\assert                                                          |          3 |         67 |        180 |        176 |        423 |
 | source\required\standard\crypto                                                          |          3 |          8 |        114 |        167 |        289 |
-| source\required\standard\delay                                                           |          9 |        186 |        550 |        556 |      1,292 |
+| source\required\standard\delay                                                           |          9 |        182 |        554 |        554 |      1,290 |
 | source\required\standard\delay (Files)                                                   |          3 |         10 |        114 |        165 |        289 |
-| source\required\standard\delay\hardware                                                  |          3 |        168 |        322 |        224 |        714 |
-| source\required\standard\delay\software                                                  |          3 |          8 |        114 |        167 |        289 |
+| source\required\standard\delay\hardware                                                  |          3 |        148 |        318 |        219 |        685 |
+| source\required\standard\delay\software                                                  |          3 |         24 |        122 |        170 |        316 |
 | source\required\standard\filter                                                          |          3 |          8 |        114 |        167 |        289 |
-| source\required\standard\math                                                            |          3 |        163 |        194 |        183 |        540 |
-| source\required\standard\search                                                          |          9 |         78 |        398 |        505 |        981 |
+| source\required\standard\math                                                            |          3 |        157 |        204 |        184 |        545 |
+| source\required\standard\search                                                          |          9 |         78 |        406 |        505 |        989 |
 | source\required\standard\search (Files)                                                  |          3 |         10 |        114 |        166 |        290 |
-| source\required\standard\search\binary                                                   |          3 |         42 |        142 |        171 |        355 |
-| source\required\standard\search\sequential                                               |          3 |         26 |        142 |        168 |        336 |
-| source\required\standard\sort                                                            |          3 |        144 |        194 |        197 |        535 |
-| source\required\standard\state                                                           |          3 |         13 |        114 |        166 |        293 |
-| source\required\standard\string                                                          |          3 |          9 |        114 |        166 |        289 |
-| source\required\standard\swap                                                            |         15 |        706 |      1,012 |      1,037 |      2,755 |
+| source\required\standard\search\binary                                                   |          3 |         42 |        146 |        171 |        359 |
+| source\required\standard\search\sequential                                               |          3 |         26 |        146 |        168 |        340 |
+| source\required\standard\sort                                                            |          3 |        144 |        202 |        197 |        543 |
+| source\required\standard\state                                                           |          3 |         13 |        118 |        166 |        297 |
+| source\required\standard\string                                                          |          3 |        128 |        256 |        200 |        584 |
+| source\required\standard\swap                                                            |         15 |        740 |      1,014 |      1,042 |      2,796 |
 | source\required\standard\swap (Files)                                                    |          3 |         12 |        114 |        166 |        292 |
-| source\required\standard\swap\bit                                                        |          3 |         45 |        178 |        178 |        401 |
+| source\required\standard\swap\bit                                                        |          3 |         79 |        180 |        183 |        442 |
 | source\required\standard\swap\endian                                                     |          3 |        166 |        204 |        205 |        575 |
 | source\required\standard\swap\type                                                       |          3 |        432 |        354 |        308 |      1,094 |
 | source\required\standard\swap\value                                                      |          3 |         51 |        162 |        180 |        393 |
-| source\required\standard\type                                                            |          3 |         23 |        114 |        164 |        301 |
+| source\required\standard\type                                                            |          3 |         30 |        118 |        163 |        311 |
 | source\required\system                                                                   |          3 |          9 |        114 |        166 |        289 |
 +------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
 
@@ -51,7 +49,6 @@ Files
 +------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
 | filename                                                                                 | language | code       | comment    | blank      | total      |
 +------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
-| e:\code\haihe\README.md                                                                  | Markdown |          1 |          0 |          0 |          1 |
 | e:\code\haihe\source\required\main.c                                                     | C        |          5 |         24 |          3 |         32 |
 | e:\code\haihe\source\required\standard\assert\std_assert.c                               | C        |         53 |         52 |          8 |        113 |
 | e:\code\haihe\source\required\standard\assert\std_assert_private.h                       | C        |          5 |         48 |         83 |        136 |
@@ -59,45 +56,45 @@ Files
 | e:\code\haihe\source\required\standard\crypto\std_crypto.c                               | C        |          2 |         19 |          2 |         23 |
 | e:\code\haihe\source\required\standard\crypto\std_crypto_private.h                       | C        |          3 |         48 |         84 |        135 |
 | e:\code\haihe\source\required\standard\crypto\std_crypto_public.h                        | C        |          3 |         47 |         81 |        131 |
-| e:\code\haihe\source\required\standard\delay\hardware\std_hw_delay.c                     | C        |        129 |        123 |         38 |        290 |
-| e:\code\haihe\source\required\standard\delay\hardware\std_hw_delay_private.h             | C++      |         11 |         48 |         82 |        141 |
-| e:\code\haihe\source\required\standard\delay\hardware\std_hw_delay_public.h              | C++      |         28 |        151 |        104 |        283 |
-| e:\code\haihe\source\required\standard\delay\software\std_sw_delay.c                     | C        |          2 |         19 |          2 |         23 |
+| e:\code\haihe\source\required\standard\delay\hardware\std_hw_delay.c                     | C        |        110 |        123 |         34 |        267 |
+| e:\code\haihe\source\required\standard\delay\hardware\std_hw_delay_private.h             | C        |         11 |         48 |         82 |        141 |
+| e:\code\haihe\source\required\standard\delay\hardware\std_hw_delay_public.h              | C        |         27 |        147 |        103 |        277 |
+| e:\code\haihe\source\required\standard\delay\software\std_sw_delay.c                     | C        |         17 |         23 |          6 |         46 |
 | e:\code\haihe\source\required\standard\delay\software\std_sw_delay_private.h             | C++      |          3 |         48 |         84 |        135 |
-| e:\code\haihe\source\required\standard\delay\software\std_sw_delay_public.h              | C++      |          3 |         47 |         81 |        131 |
+| e:\code\haihe\source\required\standard\delay\software\std_sw_delay_public.h              | C++      |          4 |         51 |         80 |        135 |
 | e:\code\haihe\source\required\standard\delay\std_delay.c                                 | C        |          2 |         19 |          2 |         23 |
 | e:\code\haihe\source\required\standard\delay\std_delay_private.h                         | C        |          3 |         48 |         84 |        135 |
 | e:\code\haihe\source\required\standard\delay\std_delay_public.h                          | C        |          5 |         47 |         79 |        131 |
 | e:\code\haihe\source\required\standard\filter\std_filter.c                               | C        |          2 |         19 |          2 |         23 |
 | e:\code\haihe\source\required\standard\filter\std_filter_private.h                       | C        |          3 |         48 |         84 |        135 |
 | e:\code\haihe\source\required\standard\filter\std_filter_public.h                        | C        |          3 |         47 |         81 |        131 |
-| e:\code\haihe\source\required\standard\math\std_math.c                                   | C        |        143 |         59 |         17 |        219 |
-| e:\code\haihe\source\required\standard\math\std_math_private.h                           | C++      |          6 |         48 |         83 |        137 |
-| e:\code\haihe\source\required\standard\math\std_math_public.h                            | C        |         14 |         87 |         83 |        184 |
-| e:\code\haihe\source\required\standard\search\binary\std_binary_search.c                 | C        |         30 |         33 |         10 |         73 |
+| e:\code\haihe\source\required\standard\math\std_math.c                                   | C        |        143 |         64 |         17 |        224 |
+| e:\code\haihe\source\required\standard\math\std_math_private.h                           | C        |          6 |         48 |         83 |        137 |
+| e:\code\haihe\source\required\standard\math\std_math_public.h                            | C        |          8 |         92 |         84 |        184 |
+| e:\code\haihe\source\required\standard\search\binary\std_binary_search.c                 | C        |         30 |         35 |         10 |         75 |
 | e:\code\haihe\source\required\standard\search\binary\std_binary_search_private.h         | C        |          7 |         48 |         82 |        137 |
-| e:\code\haihe\source\required\standard\search\binary\std_binary_search_public.h          | C++      |          5 |         61 |         79 |        145 |
-| e:\code\haihe\source\required\standard\search\sequential\std_sequential_search.c         | C        |         14 |         33 |          7 |         54 |
+| e:\code\haihe\source\required\standard\search\binary\std_binary_search_public.h          | C++      |          5 |         63 |         79 |        147 |
+| e:\code\haihe\source\required\standard\search\sequential\std_sequential_search.c         | C        |         14 |         35 |          7 |         56 |
 | e:\code\haihe\source\required\standard\search\sequential\std_sequential_search_private.h | C        |          7 |         48 |         82 |        137 |
-| e:\code\haihe\source\required\standard\search\sequential\std_sequential_search_public.h  | C        |          5 |         61 |         79 |        145 |
+| e:\code\haihe\source\required\standard\search\sequential\std_sequential_search_public.h  | C        |          5 |         63 |         79 |        147 |
 | e:\code\haihe\source\required\standard\search\std_search.c                               | C        |          2 |         19 |          2 |         23 |
 | e:\code\haihe\source\required\standard\search\std_search_private.h                       | C        |          3 |         48 |         84 |        135 |
 | e:\code\haihe\source\required\standard\search\std_search_public.h                        | C        |          5 |         47 |         80 |        132 |
-| e:\code\haihe\source\required\standard\sort\std_sort.c                                   | C        |        128 |         59 |         30 |        217 |
+| e:\code\haihe\source\required\standard\sort\std_sort.c                                   | C        |        128 |         63 |         30 |        221 |
 | e:\code\haihe\source\required\standard\sort\std_sort_private.h                           | C        |          7 |         48 |         82 |        137 |
-| e:\code\haihe\source\required\standard\sort\std_sort_public.h                            | C        |          9 |         87 |         85 |        181 |
+| e:\code\haihe\source\required\standard\sort\std_sort_public.h                            | C        |          9 |         91 |         85 |        185 |
 | e:\code\haihe\source\required\standard\state\std_state.c                                 | C        |          2 |         19 |          2 |         23 |
 | e:\code\haihe\source\required\standard\state\std_state_private.h                         | C++      |          3 |         48 |         84 |        135 |
-| e:\code\haihe\source\required\standard\state\std_state_public.h                          | C        |          8 |         47 |         80 |        135 |
+| e:\code\haihe\source\required\standard\state\std_state_public.h                          | C        |          8 |         51 |         80 |        139 |
 | e:\code\haihe\source\required\standard\std.c                                             | C        |          2 |         19 |          2 |         23 |
 | e:\code\haihe\source\required\standard\std_private.h                                     | C        |          3 |         48 |         84 |        135 |
 | e:\code\haihe\source\required\standard\std_public.h                                      | C        |         14 |         47 |         80 |        141 |
-| e:\code\haihe\source\required\standard\string\std_string.c                               | C        |          2 |         19 |          2 |         23 |
-| e:\code\haihe\source\required\standard\string\std_string_private.h                       | C++      |          3 |         48 |         84 |        135 |
-| e:\code\haihe\source\required\standard\string\std_string_public.h                        | C        |          4 |         47 |         80 |        131 |
-| e:\code\haihe\source\required\standard\swap\bit\std_swap_bit.c                           | C        |         29 |         51 |         14 |         94 |
-| e:\code\haihe\source\required\standard\swap\bit\std_swap_bit_private.h                   | C        |          6 |         48 |         83 |        137 |
-| e:\code\haihe\source\required\standard\swap\bit\std_swap_bit_public.h                    | C        |         10 |         79 |         81 |        170 |
+| e:\code\haihe\source\required\standard\string\std_string.c                               | C        |        107 |         90 |         34 |        231 |
+| e:\code\haihe\source\required\standard\string\std_string_private.h                       | C        |          8 |         48 |         83 |        139 |
+| e:\code\haihe\source\required\standard\string\std_string_public.h                        | C        |         13 |        118 |         83 |        214 |
+| e:\code\haihe\source\required\standard\swap\bit\std_swap_bit.c                           | C        |         53 |         52 |         18 |        123 |
+| e:\code\haihe\source\required\standard\swap\bit\std_swap_bit_private.h                   | C        |         13 |         48 |         82 |        143 |
+| e:\code\haihe\source\required\standard\swap\bit\std_swap_bit_public.h                    | C        |         13 |         80 |         83 |        176 |
 | e:\code\haihe\source\required\standard\swap\endian\std_swap_endian.c                     | C        |        112 |         67 |         36 |        215 |
 | e:\code\haihe\source\required\standard\swap\endian\std_swap_endian_private.h             | C        |         45 |         48 |         84 |        177 |
 | e:\code\haihe\source\required\standard\swap\endian\std_swap_endian_public.h              | C        |          9 |         89 |         85 |        183 |
@@ -112,9 +109,9 @@ Files
 | e:\code\haihe\source\required\standard\swap\value\std_swap_value_public.h                | C        |          7 |         71 |         83 |        161 |
 | e:\code\haihe\source\required\standard\type\std_type.c                                   | C        |          2 |         19 |          2 |         23 |
 | e:\code\haihe\source\required\standard\type\std_type_private.h                           | C++      |          3 |         48 |         84 |        135 |
-| e:\code\haihe\source\required\standard\type\std_type_public.h                            | C        |         18 |         47 |         78 |        143 |
+| e:\code\haihe\source\required\standard\type\std_type_public.h                            | C        |         25 |         51 |         77 |        153 |
 | e:\code\haihe\source\required\system\sys.c                                               | C        |          2 |         19 |          2 |         23 |
 | e:\code\haihe\source\required\system\sys_private.h                                       | C        |          3 |         48 |         84 |        135 |
 | e:\code\haihe\source\required\system\sys_public.h                                        | C        |          4 |         47 |         80 |        131 |
-| Total                                                                                    |          |      1,439 |      3,350 |      3,819 |      8,608 |
+| Total                                                                                    |          |      1,588 |      3,532 |      3,856 |      8,976 |
 +------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
