@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 23:38 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jul 22 2023 01:20 +0800
+ * @date Sat Jul 22 2023 16:04 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -30,6 +30,7 @@
  * @param[in]      u16_size  - 申请大小
  * @return SUCCESS  - 成功
  *         FAILURE  - 失败
+ *
  * @ref https://en.cppreference.com/w/c/memory/malloc
  */
 state_e e_std_string_malloc(void **v_p2_data, u16 u16_size)
@@ -73,6 +74,7 @@ state_e e_std_string_malloc(void **v_p2_data, u16 u16_size)
  * @param[in]      u8_init   - 初始值
  * @return SUCCESS  - 成功
  *         FAILURE  - 失败
+ *
  * @ref https://en.cppreference.com/w/c/memory/malloc
  */
 state_e e_std_string_malloc_extension(void **v_p2_data, u16 u16_size, u8 u8_init)
@@ -114,6 +116,7 @@ state_e e_std_string_malloc_extension(void **v_p2_data, u16 u16_size, u8 u8_init
  *               **v_p2_data - 指针指向的地址上的值
  * @return SUCCESS  - 成功
  *         FAILURE  - 失败
+ *
  * @ref https://en.cppreference.com/w/c/memory/free
  */
 state_e e_std_string_free(void **v_p2_data)
@@ -142,6 +145,7 @@ state_e e_std_string_free(void **v_p2_data)
  * @param[in]      u16_size        - 拷贝大小
  * @return SUCCESS  - 成功
  *         FAILURE  - 失败
+ *
  * @ref https://en.cppreference.com/w/c/string/byte/memcpy
  *      https://zh.cppreference.com/w/c/string/byte/memcpy
  */
@@ -173,6 +177,7 @@ state_e e_std_string_memcpy(void *v_p_destination, const void *v_p_source, u16 u
  * @param[in]      u16_size - 初始化大小
  * @return SUCCESS - 成功
  *         FAILURE - 失败
+ *
  * @ref https://en.cppreference.com/w/c/string/byte/memset
  *      https://zh.cppreference.com/w/c/string/byte/memset
  */
@@ -202,6 +207,7 @@ state_e e_std_string_memset(void *v_p_data, u16 u16_size)
  * @param[in]      u8_init  - 初始值
  * @return SUCCESS - 成功
  *         FAILURE - 失败
+ *
  * @ref https://en.cppreference.com/w/c/string/byte/memset
  *      https://zh.cppreference.com/w/c/string/byte/memset
  */
