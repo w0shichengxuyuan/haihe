@@ -63,7 +63,8 @@
                 "__HARDWARE__",
                 "__RELEASE__",
                 "__TEST__",
-                "__C99__"
+                "__C99__",
+                "__32BIT__"
             ],
 
             "cStandard": "c99"
