@@ -5,7 +5,7 @@
  * @since Wed Jun 28 2023 22:52 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Wed Jun 28 2023 23:10 +0800
+ * @date Sat Jul 22 2023 18:20 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -133,7 +133,9 @@
      * @param u8_value   - 查找值
      * @return [0, M_SEARCH_MAX_NUM-1]      - 成功值
      *         M_STD_SEQUENTIAL_SEARCH_FAIL - 失败值
+     *
      * @ref https://www.cnblogs.com/CJT-blog/p/10475707.html
+     *
      * @note 假设表中元素是按升序排列，将表中间位置记录的关键字与查找关键字比较，
      *       如果两者相等，则查找成功；否则利用中间位置记录将表分成前、后两个子表，
      *       如果中间位置记录的关键字大于查找关键字，则进一步查找前一子表，否则进一步查找后一子表。
