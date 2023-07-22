@@ -5,7 +5,7 @@
  * @since Tue Jun 27 2023 22:58 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jul 22 2023 18:21 +0800
+ * @date Sat Jul 22 2023 23:50 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -24,9 +24,9 @@
 /**
  * @brief 顺序查找
  *
- * @param u8_p_data  - 数据
- * @param u16_length - 数据长度
- * @param u8_value   - 查找值
+ * @param[in] u8_p_data  - 数据
+ * @param[in] u16_length - 数据长度
+ * @param[in] u8_value   - 查找值
  * @return [0, M_SEARCH_MAX_NUM-1]      - 成功值
  *         M_STD_SEQUENTIAL_SEARCH_FAIL - 失败值
  *
