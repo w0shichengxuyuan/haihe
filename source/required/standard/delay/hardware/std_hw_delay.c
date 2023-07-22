@@ -5,7 +5,7 @@
  * @since Thu Jun 15 2023 22:16 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jul 22 2023 17:56 +0800
+ * @date Sat Jul 22 2023 18:00 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -34,7 +34,7 @@ void v_std_hw_delay_us(u32 u32_size)
     if (E_DELAY_US_MAX_SIZE < u32_size)
         return;
 
-    v_std_hw_delay_do_nothing();
+    /** @todo 添加硬件延时 */
 } /* v_std_hw_delay_us */
 
 /**
@@ -50,7 +50,7 @@ void v_std_hw_delay_ms(u32 u32_size)
     if (E_DELAY_MS_MAX_SIZE < u32_size)
         return;
 
-    v_std_hw_delay_do_nothing();
+    /** @todo 添加硬件延时 */
 } /* v_std_hw_delay_ms */
 
 /**
@@ -66,7 +66,7 @@ void v_std_hw_delay_s(u32 u32_size)
     if (E_DELAY_S_MAX_SIZE < u32_size)
         return;
 
-    v_std_hw_delay_do_nothing();
+    /** @todo 添加硬件延时 */
 } /* v_std_hw_delay_ms */
 
 /**
@@ -82,7 +82,7 @@ void v_std_hw_delay_min(u32 u32_size)
     if (E_DELAY_MIN_MAX_SIZE < u32_size)
         return;
 
-    v_std_hw_delay_do_nothing();
+    /** @todo 添加硬件延时 */
 } /* v_std_hw_delay_min */
 
 /**
