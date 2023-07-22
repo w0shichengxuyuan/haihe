@@ -5,7 +5,7 @@
  * @since Sat Jun 17 2023 15:52 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sun Jun 25 2023 11:49 +0800
+ * @date Sat Jul 22 2023 18:23 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -130,6 +130,7 @@
      *
      * @param u8_p_data  - 数据
      * @param u32_length - 数据长度
+     *
      * @ref https://mp.weixin.qq.com/s/jEndG6rEEKPQMOw8ZgdJiw
      */
     void v_std_min_bubble_sort(u8 *u8_p_data, u32 u32_length);
@@ -139,6 +140,7 @@
      *
      * @param u8_p_data  - 数据
      * @param u32_length - 数据长度
+     *
      * @ref https://mp.weixin.qq.com/s/jEndG6rEEKPQMOw8ZgdJiw
      */
     void v_std_max_bubble_sort(u8 *u8_p_data, u32 u32_length);
@@ -148,6 +150,7 @@
      *
      * @param u8_p_data  - 数据
      * @param u32_length - 数据长度
+     *
      * @ref https://mp.weixin.qq.com/s/jEndG6rEEKPQMOw8ZgdJiw
      */
     void v_std_min_selection_sort(u8 *u8_p_data, u32 u32_length);
@@ -157,6 +160,7 @@
      *
      * @param u8_p_data  - 数据
      * @param u32_length - 数据长度
+     *
      * @ref https://mp.weixin.qq.com/s/jEndG6rEEKPQMOw8ZgdJiw
      */
     void v_std_max_selection_sort(u8 *u8_p_data, u32 u32_length);
