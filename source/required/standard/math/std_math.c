@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 21:57 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date 2023-07-27 22:36 +0800
+ * @date 2023-07-27 22:38 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -67,7 +67,7 @@ u32 u32_std_math_addition(u32 u32_augend, u32 u32_addend)
  *
  * @note 公式:
  *       差 = 被减数 - 减数
- *       u32_difference = u32_minuend + u32_subtrahend
+ *       u32_difference = u32_minuend - u32_subtrahend
  *
  * @ref https://zhuanlan.zhihu.com/p/136367900
  */
