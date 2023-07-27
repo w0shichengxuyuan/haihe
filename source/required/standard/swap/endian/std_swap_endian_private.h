@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 12:29 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Tue Jun 20 2023 23:06 +0800
+ * @date 2023-07-27 22:57 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -81,7 +81,7 @@
 
     /*boolean*******************************************************************/
 
-    typedef bool endian_b;
+
 
     /*char**********************************************************************/
 
@@ -105,8 +105,7 @@
 
     /*macro*********************************************************************/
 
-    #define M_LIEELE_ENDIAN    (FALSE)
-    #define M_BIG_ENDIAN       (TRUE)
+
 
     /*structure*****************************************************************/
 
@@ -114,48 +113,68 @@
 
     /*enumeration***************************************************************/
 
-
+    /**
+     * @brief 字节序
+     *
+     */
+    typedef enum endian_e
+    {
+        E_LIEELE_ENDIAN = FALSE, /**> 小端 */
+        E_BIG_ENDIAN    = TRUE,  /**> 大端 */
+    } endian_e;
 
     /*union*********************************************************************/
 
+    /**
+     * @brief u16类型数据
+     *
+     */
     typedef union data16_u
     {
-        u16 u16_data;
+        u16 u16_data;    /**> u16数据 */
 
         struct s_byte
         {
-            u8 u8_byte0;
-            u8 u8_byte1;
+            u8 u8_byte0; /**> 第1字节 */
+            u8 u8_byte1; /**> 第2字节 */
         } s_byte;
     } data16_u;
 
+    /**
+     * @brief u32类型数据
+     *
+     */
     typedef union data32_u
     {
-        u32 u32_data;
+        u32 u32_data;    /**> u32数据 */
 
         struct s_byte
         {
-            u8 u8_byte0;
-            u8 u8_byte1;
-            u8 u8_byte2;
-            u8 u8_byte3;
+            u8 u8_byte0; /**> 第1字节 */
+            u8 u8_byte1; /**> 第2字节 */
+            u8 u8_byte2; /**> 第3字节 */
+            u8 u8_byte3; /**> 第4字节 */
         } s_byte;
     } data32_u;
 
+    /**
+     * @brief u64类型数据
+     *
+     */
     typedef union data64_u
     {
-        u64 u64_data;
+        u64 u64_data;    /**> u64数据 */
 
         struct s_byte
         {
-            u8 u8_byte0;
-            u8 u8_byte1;
-            u8 u8_byte2;
-            u8 u8_byte3;
-            u8 u8_byte4;
-            u8 u8_byte5;
-            u8 u8_byte6;
-            u8 u8_byte7;
+            u8 u8_byte0; /**> 第1字节 */
+            u8 u8_byte1; /**> 第2字节 */
+            u8 u8_byte2; /**> 第3字节 */
+            u8 u8_byte3; /**> 第4字节 */
+            u8 u8_byte4; /**> 第5字节 */
+            u8 u8_byte5; /**> 第6字节 */
+            u8 u8_byte6; /**> 第7字节 */
+            u8 u8_byte7; /**> 第8字节 */
         } s_byte;
     } data64_u;
 
@@ -171,6 +190,14 @@
 
     /*function******************************************************************/
 
-    static endian_b b_get_endian(void);
+    /**
+     * @brief 获取字节序类型
+     *
+     * @return E_LIEELE_ENDIAN - 小端
+     *         E_BIG_ENDIAN    - 大端
+     *
+     * @ref https://blog.csdn.net/wwwlyj123321/article/details/100066463
+     */
+    static endian_e e_get_endian(void);
 
 #endif /* __STD_SWAP_ENDIAN_PRIVATE_H__ */

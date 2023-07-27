@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 12:29 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Tue Jun 20 2023 23:06 +0800
+ * @date 2023-07-27 22:59 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -33,7 +33,7 @@ state_e e_std_swap_endian_little16(u16 *u16_p_data)
     if (NULL == u16_p_data)
         return (FAILURE);
 
-    if (M_LIEELE_ENDIAN == b_get_endian())
+    if (E_LIEELE_ENDIAN == e_get_endian())
         return (SUCCESS);
 
     data16_u u_data16 =
@@ -59,7 +59,7 @@ state_e e_std_swap_endian_little32(u32 *u32_p_data)
     if (NULL == u32_p_data)
         return (FAILURE);
 
-    if (M_LIEELE_ENDIAN == b_get_endian())
+    if (E_LIEELE_ENDIAN == e_get_endian())
         return (SUCCESS);
 
     data32_u u_data32 =
@@ -87,7 +87,7 @@ state_e e_std_swap_endian_little64(u64 *u64_p_data)
     if (NULL == u64_p_data)
         return (FAILURE);
 
-    if (M_LIEELE_ENDIAN == b_get_endian())
+    if (E_LIEELE_ENDIAN == e_get_endian())
         return (SUCCESS);
 
     data64_u u_data64 =
@@ -119,7 +119,7 @@ state_e e_std_swap_endian_big16(u16 *u16_p_data)
     if (NULL == u16_p_data)
         return (FAILURE);
 
-    if (M_BIG_ENDIAN == b_get_endian())
+    if (E_LIEELE_ENDIAN == e_get_endian())
         return (SUCCESS);
 
     data16_u u_data16 =
@@ -145,7 +145,7 @@ state_e e_std_swap_endian_big32(u32 *u32_p_data)
     if (NULL == u32_p_data)
         return (FAILURE);
 
-    if (M_BIG_ENDIAN == b_get_endian())
+    if (E_LIEELE_ENDIAN == e_get_endian())
         return (SUCCESS);
 
     data32_u u_data32 =
@@ -173,7 +173,7 @@ state_e e_std_swap_endian_big64(u64 *u64_p_data)
     if (NULL == u64_p_data)
         return (FAILURE);
 
-    if (M_BIG_ENDIAN == b_get_endian())
+    if (E_LIEELE_ENDIAN == e_get_endian())
         return (SUCCESS);
 
     data64_u u_data64 =
@@ -196,19 +196,21 @@ state_e e_std_swap_endian_big64(u64 *u64_p_data)
 /**
  * @brief 获取字节序类型
  *
- * @return M_LIEELE_ENDIAN
- *         M_BIG_ENDIAN
+ * @return E_LIEELE_ENDIAN - 小端
+ *         E_BIG_ENDIAN    - 大端
+ *
+ * @ref https://blog.csdn.net/wwwlyj123321/article/details/100066463
  */
-static endian_b b_get_endian(void)
+static endian_e e_get_endian(void)
 {
     u16 u16_value = 0x1234;
     u8 *u8_p_temp = NULL;
-    endian_b b_endian = M_BIG_ENDIAN;
+    endian_e e_endian = E_BIG_ENDIAN;
 
     u8_p_temp = &u16_value;
 
     if (0x34 == *u8_p_temp)
-        b_endian = M_LIEELE_ENDIAN;
+        e_endian = E_LIEELE_ENDIAN;
 
-    return (b_endian);
+    return (e_endian);
 } /* b_get_endian */
