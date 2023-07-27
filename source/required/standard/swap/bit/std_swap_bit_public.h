@@ -5,7 +5,7 @@
  * @since Sat Jun 10 2023 21:14 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jul 22 2023 18:45 +0800
+ * @date 2023-07-27 22:49 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -170,6 +170,6 @@
      *         E_STD_SWAP_BIT_VALUE_ONE     - 值1
      *         E_STD_SWAP_BIT_VALUE_INVALID - 无效
      */
-    std_swap_bit_value_e b_std_swap_bit_get(const void *v_p_data, u8 u8_bit);
+    std_swap_bit_value_e e_std_swap_bit_get(const void *v_p_data, u8 u8_bit);
 
 #endif /* __STD_SWAP_BIT_PUBLIC_H__ */
