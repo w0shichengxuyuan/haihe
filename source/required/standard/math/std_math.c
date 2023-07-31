@@ -5,7 +5,7 @@
  * @since Fri Jun 16 2023 21:57 +0800
  *
  * @name openc0de (openc0de@hotmail.com)
- * @date 2023-07-27 22:38 +0800
+ * @date 2023-07-31 21:37 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by openc0de, all rights reserved.
@@ -46,7 +46,7 @@ u32 u32_std_math_addition(u32 u32_augend, u32 u32_addend)
     {
         u32_sum = u32_augend;
     }
-    else if ((M_STD_U32_MAX_VALUE - u32_addend) >= u32_augend)
+    else if ((E_STD_U32_MAX_VALUE - u32_addend) >= u32_augend)
     {
         u32_sum = u32_augend + u32_addend;
     }
@@ -132,7 +132,7 @@ u32 u32_std_math_multiplication(u32 u32_multiplicand, u32 u32_multiplier)
     {
         u32_product = u32_multiplicand;
     }
-    else if ((M_STD_U32_MAX_VALUE / u32_multiplier) >= u32_multiplicand)
+    else if ((E_STD_U32_MAX_VALUE / u32_multiplier) >= u32_multiplicand)
     {
         u32_product = u32_multiplicand * u32_multiplier;
     }
