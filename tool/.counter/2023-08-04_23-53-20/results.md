@@ -1,27 +1,27 @@
 # Summary
 
-Date : 2023-07-27 22:40:38
+Date : 2023-08-04 23:53:20
 
 Directory e:\\code\\haihe
 
-Total : 64 files,  1588 codes, 3576 comments, 3856 blanks, all 9020 lines
+Total : 64 files,  1590 codes, 3602 comments, 3857 blanks, all 9049 lines
 
 Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
 ## Languages
 | language | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| C | 56 | 1,555 | 3,174 | 3,195 | 7,924 |
-| C++ | 8 | 33 | 402 | 661 | 1,096 |
+| C | 57 | 1,563 | 3,248 | 3,279 | 8,090 |
+| C++ | 7 | 27 | 354 | 578 | 959 |
 
 ## Directories
 | path | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| . | 64 | 1,588 | 3,576 | 3,856 | 9,020 |
-| source | 64 | 1,588 | 3,576 | 3,856 | 9,020 |
-| source\\required | 64 | 1,588 | 3,576 | 3,856 | 9,020 |
+| . | 64 | 1,590 | 3,602 | 3,857 | 9,049 |
+| source | 64 | 1,590 | 3,602 | 3,857 | 9,049 |
+| source\\required | 64 | 1,590 | 3,602 | 3,857 | 9,049 |
 | source\\required (Files) | 1 | 5 | 24 | 3 | 32 |
-| source\\required\\standard | 60 | 1,574 | 3,438 | 3,687 | 8,699 |
+| source\\required\\standard | 60 | 1,576 | 3,464 | 3,688 | 8,728 |
 | source\\required\\standard (Files) | 3 | 19 | 114 | 166 | 299 |
 | source\\required\\standard\\assert | 3 | 67 | 180 | 176 | 423 |
 | source\\required\\standard\\crypto | 3 | 8 | 114 | 167 | 289 |
@@ -38,10 +38,10 @@ Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-
 | source\\required\\standard\\sort | 3 | 144 | 202 | 197 | 543 |
 | source\\required\\standard\\state | 3 | 13 | 118 | 166 | 297 |
 | source\\required\\standard\\string | 3 | 128 | 256 | 200 | 584 |
-| source\\required\\standard\\swap | 15 | 740 | 1,014 | 1,042 | 2,796 |
+| source\\required\\standard\\swap | 15 | 742 | 1,040 | 1,043 | 2,825 |
 | source\\required\\standard\\swap (Files) | 3 | 12 | 114 | 166 | 292 |
 | source\\required\\standard\\swap\\bit | 3 | 79 | 180 | 183 | 442 |
-| source\\required\\standard\\swap\\endian | 3 | 166 | 204 | 205 | 575 |
+| source\\required\\standard\\swap\\endian | 3 | 168 | 230 | 206 | 604 |
 | source\\required\\standard\\swap\\type | 3 | 432 | 354 | 308 | 1,094 |
 | source\\required\\standard\\swap\\value | 3 | 51 | 162 | 180 | 393 |
 | source\\required\\standard\\type | 3 | 30 | 118 | 163 | 311 |

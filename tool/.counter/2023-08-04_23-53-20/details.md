@@ -1,10 +1,10 @@
 # Details
 
-Date : 2023-07-27 22:40:38
+Date : 2023-08-04 23:53:20
 
 Directory e:\\code\\haihe
 
-Total : 64 files,  1588 codes, 3576 comments, 3856 blanks, all 9020 lines
+Total : 64 files,  1590 codes, 3602 comments, 3857 blanks, all 9049 lines
 
 [Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
@@ -57,14 +57,14 @@ Total : 64 files,  1588 codes, 3576 comments, 3856 blanks, all 9020 lines
 | [source/required/standard/swap/bit/std_swap_bit.c](/source/required/standard/swap/bit/std_swap_bit.c) | C | 53 | 52 | 18 | 123 |
 | [source/required/standard/swap/bit/std_swap_bit_private.h](/source/required/standard/swap/bit/std_swap_bit_private.h) | C | 13 | 48 | 82 | 143 |
 | [source/required/standard/swap/bit/std_swap_bit_public.h](/source/required/standard/swap/bit/std_swap_bit_public.h) | C | 13 | 80 | 83 | 176 |
-| [source/required/standard/swap/endian/std_swap_endian.c](/source/required/standard/swap/endian/std_swap_endian.c) | C | 112 | 67 | 36 | 215 |
-| [source/required/standard/swap/endian/std_swap_endian_private.h](/source/required/standard/swap/endian/std_swap_endian_private.h) | C | 45 | 48 | 84 | 177 |
+| [source/required/standard/swap/endian/std_swap_endian.c](/source/required/standard/swap/endian/std_swap_endian.c) | C | 112 | 69 | 36 | 217 |
+| [source/required/standard/swap/endian/std_swap_endian_private.h](/source/required/standard/swap/endian/std_swap_endian_private.h) | C | 47 | 72 | 85 | 204 |
 | [source/required/standard/swap/endian/std_swap_endian_public.h](/source/required/standard/swap/endian/std_swap_endian_public.h) | C | 9 | 89 | 85 | 183 |
 | [source/required/standard/swap/std_swap.c](/source/required/standard/swap/std_swap.c) | C | 2 | 19 | 2 | 23 |
 | [source/required/standard/swap/std_swap_private.h](/source/required/standard/swap/std_swap_private.h) | C++ | 3 | 48 | 84 | 135 |
 | [source/required/standard/swap/std_swap_public.h](/source/required/standard/swap/std_swap_public.h) | C | 7 | 47 | 80 | 134 |
 | [source/required/standard/swap/type/std_swap_type.c](/source/required/standard/swap/type/std_swap_type.c) | C | 399 | 139 | 134 | 672 |
-| [source/required/standard/swap/type/std_swap_type_private.h](/source/required/standard/swap/type/std_swap_type_private.h) | C++ | 6 | 48 | 83 | 137 |
+| [source/required/standard/swap/type/std_swap_type_private.h](/source/required/standard/swap/type/std_swap_type_private.h) | C | 6 | 48 | 83 | 137 |
 | [source/required/standard/swap/type/std_swap_type_public.h](/source/required/standard/swap/type/std_swap_type_public.h) | C | 27 | 167 | 91 | 285 |
 | [source/required/standard/swap/value/std_swap_value.c](/source/required/standard/swap/value/std_swap_value.c) | C | 38 | 43 | 14 | 95 |
 | [source/required/standard/swap/value/std_swap_value_private.h](/source/required/standard/swap/value/std_swap_value_private.h) | C++ | 6 | 48 | 83 | 137 |

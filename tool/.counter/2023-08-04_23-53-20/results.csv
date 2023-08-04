@@ -45,14 +45,14 @@
 "e:\code\haihe\source\required\standard\swap\bit\std_swap_bit.c", "C", 53, 0, 52, 18, 123
 "e:\code\haihe\source\required\standard\swap\bit\std_swap_bit_private.h", "C", 13, 0, 48, 82, 143
 "e:\code\haihe\source\required\standard\swap\bit\std_swap_bit_public.h", "C", 13, 0, 80, 83, 176
-"e:\code\haihe\source\required\standard\swap\endian\std_swap_endian.c", "C", 112, 0, 67, 36, 215
-"e:\code\haihe\source\required\standard\swap\endian\std_swap_endian_private.h", "C", 45, 0, 48, 84, 177
+"e:\code\haihe\source\required\standard\swap\endian\std_swap_endian.c", "C", 112, 0, 69, 36, 217
+"e:\code\haihe\source\required\standard\swap\endian\std_swap_endian_private.h", "C", 47, 0, 72, 85, 204
 "e:\code\haihe\source\required\standard\swap\endian\std_swap_endian_public.h", "C", 9, 0, 89, 85, 183
 "e:\code\haihe\source\required\standard\swap\std_swap.c", "C", 2, 0, 19, 2, 23
 "e:\code\haihe\source\required\standard\swap\std_swap_private.h", "C++", 0, 3, 48, 84, 135
 "e:\code\haihe\source\required\standard\swap\std_swap_public.h", "C", 7, 0, 47, 80, 134
 "e:\code\haihe\source\required\standard\swap\type\std_swap_type.c", "C", 399, 0, 139, 134, 672
-"e:\code\haihe\source\required\standard\swap\type\std_swap_type_private.h", "C++", 0, 6, 48, 83, 137
+"e:\code\haihe\source\required\standard\swap\type\std_swap_type_private.h", "C", 6, 0, 48, 83, 137
 "e:\code\haihe\source\required\standard\swap\type\std_swap_type_public.h", "C", 27, 0, 167, 91, 285
 "e:\code\haihe\source\required\standard\swap\value\std_swap_value.c", "C", 38, 0, 43, 14, 95
 "e:\code\haihe\source\required\standard\swap\value\std_swap_value_private.h", "C++", 0, 6, 48, 83, 137
@@ -63,4 +63,4 @@
 "e:\code\haihe\source\required\system\sys.c", "C", 2, 0, 19, 2, 23
 "e:\code\haihe\source\required\system\sys_private.h", "C", 3, 0, 48, 84, 135
 "e:\code\haihe\source\required\system\sys_public.h", "C", 4, 0, 47, 80, 131
-"Total", "-", 1555, 33, 3576, 3856, 9020
+"Total", "-", 1563, 27, 3602, 3857, 9049
