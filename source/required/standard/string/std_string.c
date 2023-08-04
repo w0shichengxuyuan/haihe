@@ -1,20 +1,20 @@
 /**
  * @file std_string.c
  * @brief 标准字符文件
- * @author openc0de (openc0de@hotmail.com)
+ * @author opencode (openc0de@hotmail.com)
  * @since Fri Jun 16 2023 23:38 +0800
  *
- * @name openc0de (openc0de@hotmail.com)
- * @date Sat Jul 22 2023 16:04 +0800
+ * @authors opencode (openc0de@hotmail.com)
+ * @date 2023-08-04 23:30 +0800
  * @version 0.00.001
  *
- * @copyright copyright ©2023 by openc0de, all rights reserved.
+ * @copyright copyright ©2023 by opencode, all rights reserved.
  *
  * @details
  * -----------------------------------------------------------------------------
  *    version   |             date            |       by       |    comments
  * ------------ | --------------------------- | -------------- | ---------------
- *   0.00.001   | Fri Jun 16 2023 23:38 +0800 |    openc0de    | 初版
+ *   0.00.001   | Fri Jun 16 2023 23:38 +0800 |    opencode    | 初版
  * -----------------------------------------------------------------------------
  */
 
