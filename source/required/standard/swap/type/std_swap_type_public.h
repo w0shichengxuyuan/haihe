@@ -1,20 +1,20 @@
 /**
  * @file std_swap_type_public.h
  * @brief 标准类型转换公有文件
- * @author openc0de (openc0de@hotmail.com)
- * @since Sat Jun 10 2023 22:22 +0800
+ * @author opencode (openc0de@hotmail.com)
+ * @since 2023-06-10 22:22 +0800
  *
- * @name openc0de (openc0de@hotmail.com)
- * @date Tue Jun 13 2023 22:07 +0800
+ * @authors opencode (openc0de@hotmail.com)
+ * @date 2023-08-04 23:26 +0800
  * @version 0.00.001
  *
- * @copyright copyright ©2023 by openc0de, all rights reserved.
+ * @copyright copyright ©2023 by opencode, all rights reserved.
  *
  * @details
  * -----------------------------------------------------------------------------
- *    version   |             date            |       by       |    comments
- * ------------ | --------------------------- | -------------- | ---------------
- *   0.00.001   | Sat Jun 10 2023 22:22 +0800 |    openc0de    | 初版
+ *    version   |           date         |       by       |       comments
+ * ------------ | ---------------------- | -------------- | --------------------
+ *   0.00.001   | 2023-06-10 22:22 +0800 |    opencode    | 初版
  * -----------------------------------------------------------------------------
  */
 
@@ -132,8 +132,8 @@
      * @param[in]  u8_in_len    - 输入长度
      * @param[out] u16_p_out    - 输出数据
      * @param[out] u8_p_out_len - 输出长度
-     * @return SUCCESS
-     *         FAILURE
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
      */
     state_e e_std_swap_type_u8_to_u16(const u8  *u8_p_in,   u8  u8_in_len,
                                             u16 *u16_p_out, u8 *u8_p_out_len);
@@ -145,8 +145,8 @@
      * @param[in]  u8_in_len    - 输入长度
      * @param[out] u32_p_out    - 输出数据
      * @param[out] u8_p_out_len - 输出长度
-     * @return SUCCESS
-     *         FAILURE
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
      */
     state_e e_std_swap_type_u8_to_u32(const u8  *u8_p_in,   u8  u8_in_len,
                                             u32 *u32_p_out, u8 *u8_p_out_len);
@@ -158,8 +158,8 @@
      * @param[in]  u8_in_len    - 输入长度
      * @param[out] u64_p_out    - 输出数据
      * @param[out] u8_p_out_len - 输出长度
-     * @return SUCCESS
-     *         FAILURE
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
      */
     state_e e_std_swap_type_u8_to_u64(const u8  *u8_p_in,   u8  u8_in_len,
                                             u64 *u64_p_out, u8 *u8_p_out_len);
@@ -171,8 +171,8 @@
      * @param[in]  u8_in_len    - 输入长度
      * @param[out] u8_p_out     - 输出数据
      * @param[out] u8_p_out_len - 输出长度
-     * @return SUCCESS
-     *         FAILURE
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
      */
     state_e e_std_swap_type_u16_to_u8(const u16 *u16_p_in, u8  u8_in_len,
                                             u8  *u8_p_out, u8 *u8_p_out_len);
@@ -184,8 +184,8 @@
      * @param[in]  u8_in_len    - 输入长度
      * @param[out] u32_p_out    - 输出数据
      * @param[out] u8_p_out_len - 输出长度
-     * @return SUCCESS
-     *         FAILURE
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
      */
     state_e e_std_swap_type_u16_to_u32(const u16 *u16_p_in,  u8  u8_in_len,
                                              u32 *u32_p_out, u8 *u8_p_out_len);
@@ -197,8 +197,8 @@
      * @param[in]  u8_in_len    - 输入长度
      * @param[out] u64_p_out    - 输出数据
      * @param[out] u8_p_out_len - 输出长度
-     * @return SUCCESS
-     *         FAILURE
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
      */
     state_e e_std_swap_type_u16_to_u64(const u16 *u16_p_in,  u8  u8_in_len,
                                              u64 *u64_p_out, u8 *u8_p_out_len);
@@ -210,8 +210,8 @@
      * @param[in]  u8_in_len    - 输入长度
      * @param[out] u8_p_out     - 输出数据
      * @param[out] u8_p_out_len - 输出长度
-     * @return SUCCESS
-     *         FAILURE
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
      */
     state_e e_std_swap_type_u32_to_u8(const u32 *u32_p_in, u8  u8_in_len,
                                             u8  *u8_p_out, u8 *u8_p_out_len);
@@ -223,8 +223,8 @@
      * @param[in]  u8_in_len    - 输入长度
      * @param[out] u16_p_out    - 输出数据
      * @param[out] u8_p_out_len - 输出长度
-     * @return SUCCESS
-     *         FAILURE
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
      */
     state_e e_std_swap_type_u32_to_u16(const u32 *u32_p_in,  u8  u8_in_len,
                                              u16 *u16_p_out, u8 *u8_p_out_len);
@@ -236,8 +236,8 @@
      * @param[in]  u8_in_len    - 输入长度
      * @param[out] u64_p_out    - 输出数据
      * @param[out] u8_p_out_len - 输出长度
-     * @return SUCCESS
-     *         FAILURE
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
      */
     state_e e_std_swap_type_u32_to_u64(const u32 *u32_p_in,  u8  u8_in_len,
                                              u64 *u64_p_out, u8 *u8_p_out_len);
@@ -249,8 +249,8 @@
      * @param[in]  u8_in_len    - 输入长度
      * @param[out] u8_p_out     - 输出数据
      * @param[out] u8_p_out_len - 输出长度
-     * @return SUCCESS
-     *         FAILURE
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
      */
     state_e e_std_swap_type_u64_to_u8(const u64 *u64_p_in, u8  u8_in_len,
                                             u8  *u8_p_out, u8 *u8_p_out_len);
@@ -262,8 +262,8 @@
      * @param[in]  u8_in_len    - 输入长度
      * @param[out] u16_p_out    - 输出数据
      * @param[out] u8_p_out_len - 输出长度
-     * @return SUCCESS
-     *         FAILURE
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
      */
     state_e e_std_swap_type_u64_to_u16(const u64 *u64_p_in,  u8  u8_in_len,
                                              u16 *u16_p_out, u8 *u8_p_out_len);
@@ -275,8 +275,8 @@
      * @param[in]  u8_in_len    - 输入长度
      * @param[out] u32_p_out    - 输出数据
      * @param[out] u8_p_out_len - 输出长度
-     * @return SUCCESS
-     *         FAILURE
+     * @return SUCCESS - 成功
+     *         FAILURE - 失败
      */
     state_e e_std_swap_type_u64_to_u32(const u64 *u64_p_in,  u8  u8_in_len,
                                              u32 *u32_p_out, u8 *u8_p_out_len);
