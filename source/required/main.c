@@ -1,11 +1,11 @@
 /**
  * @file main.c
  * @brief 主文件
- * @author opencode (openc0de@hotmail.com)
+ * @author org.opencode (org.opencode@outlook.com)
  * @since 2023-04-30 20:16 +0800
  *
- * @authors opencode (openc0de@hotmail.com)
- * @date 2023-08-04 23:42 +0800
+ * @authors org.opencode (org.opencode@outlook.com)
+ * @date 2023-08-06 00:23 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by opencode, all rights reserved.
@@ -14,7 +14,7 @@
  * -----------------------------------------------------------------------------
  *    version   |           date         |       by       |       comments
  * ------------ | ---------------------- | -------------- | --------------------
- *   0.00.001   | 2023-04-30 20:16 +0800 |    opencode    | 初版
+ *   0.00.001   | 2023-04-30 20:16 +0800 |  org.opencode  | 初版
  * -----------------------------------------------------------------------------
  */
 
