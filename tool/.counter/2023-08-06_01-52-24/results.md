@@ -1,6 +1,6 @@
 # Summary
 
-Date : 2023-07-27 23:08:17
+Date : 2023-08-06 01:52:24
 
 Directory e:\\code\\haihe
 
@@ -11,8 +11,8 @@ Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-
 ## Languages
 | language | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| C | 56 | 1,557 | 3,200 | 3,196 | 7,953 |
-| C++ | 8 | 33 | 402 | 661 | 1,096 |
+| C | 57 | 1,563 | 3,248 | 3,279 | 8,090 |
+| C++ | 7 | 27 | 354 | 578 | 959 |
 
 ## Directories
 | path | files | code | comment | blank | total |
