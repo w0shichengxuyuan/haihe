@@ -5,10 +5,10 @@
  * @since 2023-04-30 20:16 +0800
  *
  * @authors org.opencode (org.opencode@outlook.com)
- * @date 2023-08-06 00:23 +0800
+ * @date 2023-08-06 00:24 +0800
  * @version 0.00.001
  *
- * @copyright copyright ©2023 by opencode, all rights reserved.
+ * @copyright copyright ©2023 by org.opencode, all rights reserved.
  *
  * @details
  * -----------------------------------------------------------------------------
