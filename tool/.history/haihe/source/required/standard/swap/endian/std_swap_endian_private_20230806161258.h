@@ -1,11 +1,11 @@
 /**
- * @file std_swap_endian_public.h
- * @brief 标准字节序转换公有文件
+ * @file std_swap_endian_private.h
+ * @brief 标准字节序转换私有文件
  * @author org.opencode (org.opencode@outlook.com)
  * @since 2023-08-06 13:03 +0800
  *
  * @authors woshichengxuyuan (woshichengxuyuan@hotmail.com)
- * @date 2023-08-06 16:13 +0800
+ * @date 2023-08-06 16:12 +0800
  * @version 0.00.001
  *
  * @copyright copyright ©2023 by org.opencode, all rights reserved.
@@ -14,12 +14,12 @@
  * -----------------------------------------------------------------------------
  *    version   |           date         |       by       |       comments
  * ------------ | ---------------------- | -------------- | --------------------
- *   0.00.001   | 2023-08-06 16:12 +0800 |  org.opencode  | 初版
+ *   0.00.001   | 2023-08-06 16:12 +0800 |    opencode    | 初版
  * -----------------------------------------------------------------------------
  */
 
-#ifndef __STD_SWAP_ENDIAN_PUBLIC_H__
-#define __STD_SWAP_ENDIAN_PUBLIC_H__
+#ifndef __STD_SWAP_ENDIAN_PRIVATE_H__
+#define __STD_SWAP_ENDIAN_PRIVATE_H__
 
 /*header files******************************************************************/
 
@@ -45,7 +45,9 @@
 
         /*standard**************************************************************/
 
-
+        #include "std_state_public.h"
+        #include "std_string_public.h"
+        #include "std_type_public.h"
 
         /*system****************************************************************/
 
@@ -111,11 +113,70 @@
 
     /*enumeration***************************************************************/
 
-
+    /**
+     * @brief 字节序
+     *
+     */
+    typedef enum endian_e
+    {
+        E_LIEELE_ENDIAN = FALSE, /**> 小端 */
+        E_BIG_ENDIAN    = TRUE,  /**> 大端 */
+    } endian_e;
 
     /*union*********************************************************************/
 
+    /**
+     * @brief u16类型数据
+     *
+     */
+    typedef union data16_u
+    {
+        u16 u16_data;    /**> u16数据 */
 
+        struct s_byte
+        {
+            u8 u8_byte0; /**> 第1字节 */
+            u8 u8_byte1; /**> 第2字节 */
+        } s_byte;
+    } data16_u;
+
+    /**
+     * @brief u32类型数据
+     *
+     */
+    typedef union data32_u
+    {
+        u32 u32_data;    /**> u32数据 */
+
+        struct s_byte
+        {
+            u8 u8_byte0; /**> 第1字节 */
+            u8 u8_byte1; /**> 第2字节 */
+            u8 u8_byte2; /**> 第3字节 */
+            u8 u8_byte3; /**> 第4字节 */
+        } s_byte;
+    } data32_u;
+
+    /**
+     * @brief u64类型数据
+     *
+     */
+    typedef union data64_u
+    {
+        u64 u64_data;    /**> u64数据 */
+
+        struct s_byte
+        {
+            u8 u8_byte0; /**> 第1字节 */
+            u8 u8_byte1; /**> 第2字节 */
+            u8 u8_byte2; /**> 第3字节 */
+            u8 u8_byte3; /**> 第4字节 */
+            u8 u8_byte4; /**> 第5字节 */
+            u8 u8_byte5; /**> 第6字节 */
+            u8 u8_byte6; /**> 第7字节 */
+            u8 u8_byte7; /**> 第8字节 */
+        } s_byte;
+    } data64_u;
 
     /*function******************************************************************/
 
@@ -123,60 +184,20 @@
 
 /*declarations******************************************************************/
 
+    /*variable******************************************************************/
+
+
+
     /*function******************************************************************/
 
     /**
-     * @brief 小端u16
+     * @brief 获取字节序类型
      *
-     * @param[in] u16_p_data - 数据
-     * @return SUCCESS - 成功
-     *         FAILURE - 失败
-     */
-    state_e e_std_swap_endian_little16(u16 *u16_p_data);
-
-    /**
-     * @brief 小端u32
+     * @return E_LIEELE_ENDIAN - 小端
+     *         E_BIG_ENDIAN    - 大端
      *
-     * @param[in] u32_p_data - 数据
-     * @return SUCCESS - 成功
-     *         FAILURE - 失败
+     * @ref https://blog.csdn.net/wwwlyj123321/article/details/100066463
      */
-    state_e e_std_swap_endian_little32(u32 *u32_p_data);
+    static endian_e e_get_endian(void);
 
-    /**
-     * @brief 小端u64
-     *
-     * @param[in] u64_p_data - 数据
-     * @return SUCCESS - 成功
-     *         FAILURE - 失败
-     */
-    state_e e_std_swap_endian_little64(u64 *u64_p_data);
-
-    /**
-     * @brief 大端u16
-     *
-     * @param[in] u16_p_data - 数据
-     * @return SUCCESS - 成功
-     *         FAILURE - 失败
-     */
-    state_e e_std_swap_endian_big16(u16 *u16_p_data);
-
-    /**
-     * @brief 大端u32
-     *
-     * @param[in] u32_p_data - 数据
-     * @return SUCCESS - 成功
-     *         FAILURE - 失败
-     */
-    state_e e_std_swap_endian_big32(u32 *u32_p_data);
-
-    /**
-     * @brief 大端u64
-     *
-     * @param[in] u64_p_data - 数据
-     * @return SUCCESS - 成功
-     *         FAILURE - 失败
-     */
-    state_e e_std_swap_endian_big64(u64 *u64_p_data);
-
-#endif /* __STD_SWAP_ENDIAN_PUBLIC_H__ */
+#endif /* __STD_SWAP_ENDIAN_PRIVATE_H__ */
