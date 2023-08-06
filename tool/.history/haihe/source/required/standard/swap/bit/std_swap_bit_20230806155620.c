@@ -1,14 +1,14 @@
 /**
  * @file std_swap_bit.c
- * @brief 标准位转换文件
- * @author opencode (opencode@outlook.com)
+ * @brief std_swap_bit
+ * @author woshichengxuyuan (woshichengxuyuan@hotmail.com)
  * @since 2023-06-10 21:14 +0800
  *
  * @authors woshichengxuyuan (woshichengxuyuan@hotmail.com)
  * @date 2023-08-06 15:56 +0800
  * @version 0.00.001
  *
- * @copyright copyright ©2023 by opencode, all rights reserved.
+ * @copyright copyright ©2023 by woshichengxuyuan, all rights reserved.
  *
  * @details
  * -----------------------------------------------------------------------------
